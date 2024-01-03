@@ -1,0 +1,36 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+docker-compose*.yml
+Dockerfile
+*.dockerignore
+**/data
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System
+.DS_Store
+Thumbs.db
+Desktop.ini
