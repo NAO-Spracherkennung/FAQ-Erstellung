@@ -26,3 +26,28 @@ for div_element in main_content:
             print("Text: " + text)        
             print('-' * 50)
 
+
+
+def download_pdfs(url): 
+    pdf = []
+
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    main = soup.find('main')
+    links = main.find_all('a', href=lambda href: (href and href.endswith('.pdf')))
+
+    i = 0
+
+    for link in links: 
+        link_http = 'http://www.hwr-berlin.de' + link.get('href')
+        print(link_http)
+        response = requests.get(link_http, headers=headers)
+
+        # Write content in pdf file
+        pdf = open("pdf"+str(i)+".pdf", 'wb')
+        pdf.write(response.content)
+        pdf.close()
+        print("File ", i, " downloaded")
+
+print("All PDF files downloaded")
