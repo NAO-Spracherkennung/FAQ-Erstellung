@@ -68,7 +68,7 @@ def main():
     soupGeneral = BeautifulSoup(generalPage.text, "html.parser")
     main_content = soupGeneral.find("main")
     content_with_tags = main_content.find_all(
-        ["h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "link"], text=True
+        ["h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "link"], string=True
     )
 
     page = []
