@@ -4,6 +4,13 @@ import json
 
 
 def get_header_level(element):
+    """
+    Simplifies the extraction of the header level of an HTML header tag.
+
+    Returns 0 if not a header element.
+    Returns 1,2,3... equal to the header level
+
+    """
     tag_name = element.name
     header_level = 0
 
@@ -14,6 +21,12 @@ def get_header_level(element):
 
 
 def build_content(html_elements):
+    """
+
+    Extracts the content from a web page and transforms it into a simple form.
+    Returns an array with page content.
+
+    """
     content = []
     prev_header_level = 999
 
@@ -36,6 +49,13 @@ def build_content(html_elements):
 
 
 def get_children(html_elements, header_element):
+    """
+
+    Simplifies the extraction of the children of an HTML header tag.
+    Returns array with header children.
+
+    """
+
     children = []
 
     main_header_level = get_header_level(header_element)
