@@ -84,9 +84,9 @@ def main():
         "https://www.hwr-berlin.de/hwr-berlin/fachbereiche-und-bps/fb-2-duales-studium/"
     )
 
-    generalPage = requests.get(hauptseite, headers=headers)
-    soupGeneral = BeautifulSoup(generalPage.text, "html.parser")
-    main_content = soupGeneral.find("main")
+    response = requests.get(hauptseite, headers=headers)
+    soup = BeautifulSoup(response.text, "html.parser")
+    main_content = soup.find("main")
     content_with_tags = main_content.find_all(
         ["h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "link"], string=True
     )
