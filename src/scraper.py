@@ -33,7 +33,7 @@ def build_content(html_elements):
     for element in html_elements:
         if get_header_level(element) != 0:
             break
-        content.append(element.get_text(strip=True))
+        content.append(element.get_text(strip=True).encode("utf-8"))
 
     for element in html_elements:
         header_level = get_header_level(element)
@@ -41,7 +41,7 @@ def build_content(html_elements):
             if header_level < prev_header_level:
                 prev_header_level = header_level
             header = {}
-            header["title"] = element.get_text(strip=True)
+            header["title"] = element.get_text(strip=True).encode("utf-8")
             header["content"] = build_content(get_children(html_elements, element))
             content.append(header)
 
