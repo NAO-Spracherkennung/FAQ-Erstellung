@@ -1,9 +1,9 @@
-from dotenv import load_dotenv
-import scraper
+import re
 
 
-def formPrompt(source_text):
-    return """
+def form_prompt(source_text):
+    """Form prompt for LLMs."""
+    return f"""
         TEXT: {source_text}
 
         AUFGABE:
@@ -18,25 +18,31 @@ def formPrompt(source_text):
         F2: <Frage 2>
         A2: <Antwort 2>
         ...
-        """.format(
-        source_text=source_text
-    )
+        """
+
+
+def faq_to_list(faq_string):
+    index = 1
+    list = []
+    while True:
+        try:
+            question = re.search(f"F{index}:(.*)", faq_string)
+            question = question.group(1).strip()
+            answer = re.search(f"A{index}:(.*)", faq_string)
+            answer = answer.group(1).strip()
+            list.append({"question": question, "answer": answer})
+            index += 1
+        except AttributeError:
+            break
+    return list
 
 
 if __name__ == "__main__":
-    source_text = scraper.main(
-        "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/"
-    )
-
-    source_md = scraper.json_to_md(source_text)
-
-    splittext = split_md(source_md, 500)
-
-    # write sourcetext to file
-    with open("source_text.json", "w") as file:
-        file.write(str(source_text))
-
-    # write splittext to file
-    with open("split_text.md", "w") as file:
-        for i in splittext:
-            file.write(i + "####################\n\n")
+    string = """
+SYNTAX:
+        F1: Was ist Informatik?
+        A1: Informatik beschreibt Kernprozesse, die für das Funktionieren nahezu aller Bereiche des privaten, gesellschaftlichen und beruflichen Lebens entscheidend sind.
+        F2: <Frage 2>
+        A2: <Antwort 2>
+        ..."""
+    print(faq_to_list(string))
