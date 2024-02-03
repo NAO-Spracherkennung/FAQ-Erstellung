@@ -1,3 +1,5 @@
 beautifulsoup4==4.12.3
-PyMuPDF==1.23.20
+PyMuPDF==1.23.21
+openai==1.10.0
+python-dotenv==1.0.1
 Requests==2.31.0
