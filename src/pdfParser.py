@@ -9,7 +9,7 @@ headers = {
 
 def download_pdf(url):
     """
-    Send get request to download the pdf file 
+    Send get request to download the pdf file
 
     Return response content if download was success
     Otherwise returns none
@@ -26,10 +26,9 @@ def extract_text_from_pdf(pdf_file):
     """
     Simplifies the extraction of text from pdf file.
     Returns an array with pdf file content.
-    
+
     """
     if pdf_file:
-
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
             temp_file.write(pdf_file)
 
@@ -38,10 +37,10 @@ def extract_text_from_pdf(pdf_file):
         doc = fitz.open(pdf_path)
         page_count = len(doc)
         text_content = []
-        
+
         for page_number in range(page_count):
             page = doc[page_number]
-            text_content.append(page.getText())
+            text_content.append(page.get_text())
 
         doc.close()
         return text_content
@@ -50,7 +49,6 @@ def extract_text_from_pdf(pdf_file):
 
 
 def main():
-
     url = "https://www.hwr-berlin.de/fileadmin/portal/Dokumente/HWR-Berlin/Mitteilungsbl%C3%A4tter/2023/Mitteilungsblatt_11-2023_ZHV_Konsoliderte_Fassung_nach_f%C3%BCnfter_%C3%84nderung_RStud-Pr%C3%BCfO_d_e.pdf"
     pdf = download_pdf(url)
 
