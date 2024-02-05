@@ -22,7 +22,8 @@ def download_pdf(url):
         return response.content
     else:
         return None
-    
+
+
 def download_pdfs_with_label(url, target_label):
     """
     Extracts the content from a pdf file.
@@ -63,7 +64,7 @@ def download_pdfs_with_label(url, target_label):
         return None
 
 
-def extract_text_from_pdf(pdf_file):
+def extract_text_from_pdf(pdf_file, target_label):
     """
     Simplifies the extraction of text from pdf file.
     Returns an array with pdf file content.
@@ -82,25 +83,51 @@ def extract_text_from_pdf(pdf_file):
             for page_number in range(page_count):
                 page = doc[page_number]
                 text_content.append(page.get_text())
-        return text_content
+                content = build_content(text_content, target_label)
+        return content
     else:
         return None
 
 
-def main():
-    url = "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/"
+def build_content(pdfcontent, filename):
+    """
+    Transform pdf content into a simple form
+    Returns an array with page content
+    """
+    content = {}
+
+    content["title"] = filename
+    content["content"] = pdfcontent
+
+    return content
+
+
+def pdf_parser():
+    urls = [
+        "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/",
+        "https://www.hwr-berlin.de/hwr-berlin/fachbereiche-und-bps/fb-2-duales-studium/studieren-am-fachbereich/studienorganisation/",
+    ]
 
     target_labels = [
         "Modulübersicht",
         "Rahmenstudien- und Prüfungsordnung der HWR Berlin",
     ]
+
     pdf_text_content = []
-    for target_label in target_labels:
-        pdf_contents = download_pdfs_with_label(url, target_label)
-        for pdf_content in pdf_contents:
-            pdf_text_content = extract_text_from_pdf(pdf_content)
-            print("PDF")
-        print(pdf_text_content)
+
+    for url in urls:
+        for target_label in target_labels:
+            pdf_contents = download_pdfs_with_label(url, target_label)
+            for pdf_content in pdf_contents:
+                pdf_text_content.append(
+                    extract_text_from_pdf(pdf_content, target_label)
+                )
+    return pdf_text_content
+
+
+def main():
+    content = pdf_parser()
+    print(content)
 
 
 if __name__ == "__main__":
