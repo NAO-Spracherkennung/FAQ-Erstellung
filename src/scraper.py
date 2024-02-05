@@ -74,6 +74,25 @@ def get_children(html_elements, header_element):
     return children
 
 
+def scrape_to_json(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.text, "html.parser")
+    main_content = soup.find("main")
+    content_with_tags = main_content.find_all(
+        ["h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "link"], string=True
+    )
+
+    page = []
+
+    page = build_content(content_with_tags)
+
+    return page
+
+
 def main():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
