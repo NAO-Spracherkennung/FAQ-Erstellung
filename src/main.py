@@ -11,7 +11,6 @@ import util
 
 dotenv.load_dotenv()
 SECRET_OPENAI_API_KEY = os.getenv("SECRET_OPENAI_API_KEY")
-SECRET_COHERE_API_KEY = os.getenv("SECRET_COHERE_API_KEY")
 SECRET_JURASSIC_API_KEY = os.getenv("SECRET_JURASSIC_API_KEY")
 
 
