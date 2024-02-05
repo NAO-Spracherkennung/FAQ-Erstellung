@@ -11,7 +11,7 @@ headers = {
 
 def download_pdf(url):
     """
-    Send get request to download the pdf file 
+    Send get request to download the pdf file
 
     Return response content if download was success
     Otherwise returns none
@@ -67,10 +67,9 @@ def extract_text_from_pdf(pdf_file):
     """
     Simplifies the extraction of text from pdf file.
     Returns an array with pdf file content.
-    
+
     """
     if pdf_file:
-
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
             temp_file.write(pdf_file)
 
