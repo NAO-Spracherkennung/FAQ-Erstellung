@@ -9,10 +9,9 @@ import Api
 import scraper
 import util
 
+
 dotenv.load_dotenv()
 SECRET_OPENAI_API_KEY = os.getenv("SECRET_OPENAI_API_KEY")
-SECRET_JURASSIC_API_KEY = os.getenv("SECRET_JURASSIC_API_KEY")
-
 
 models = {}
 models["openai"] = {}
@@ -36,10 +35,8 @@ source_text = scraper.scrape_to_json(
     "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/"
 )
 source_md = util.json_to_md(source_text)
-split_md = util.split_md(source_md, 500)
 
 model = models["openai"]["gpt35_turbo"]
-
 
 print("==================================")
 print(f"Erstelle FAQs mit {model['name']}")
