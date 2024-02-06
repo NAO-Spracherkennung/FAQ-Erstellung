@@ -1,23 +1,20 @@
 import re
+import time
 import openai
 import tiktoken
 
 
 def form_chat_prompt_first(source_text):
-    """Form chat prompt for LLMs."""
+    """Form chat prompt for LLMs to create Q&A based on provided text."""
     return f"""
 AUFGABE:
-Dieser TEXT stammt von der Webseite der Hochschule für Wirtschaft und Recht Berlin.
-Erstelle aus diesem TEXT eine von Fragen und Antworten.
-Erstelle kurze Fragen und Antworten Antworten.
-Erstelle sehr viele Fragen und Antworten, über 30.
-Es ist wichtig, dass jede Information aus dem Text in den Fragen und Antworten dabei ist.
+Basierend auf dem folgenden TEXT von der Webseite der Hochschule für Wirtschaft und Recht Berlin, erstelle eine umfangreiche Liste von Fragen und Antworten.
+Ziel ist es präzise und kurze Fragen und Antworten zu formulieren, die jede Information aus dem Text abdecken.
+Stelle sicher, dass die Antworten direkt und eindeutig aus dem Text abgeleitet werden können.
 
-Formatiere die Fragen und Antworten in der richtigen Syntax, z.B.:
+Beispiel für das Format:
 Q: Was ist Informatik?
-A: Informatik beschreibt Kernprozesse, die für das Funktionieren nahezu aller Bereiche des privaten, gesellschaftlichen und beruflichen Lebens entscheidend sind.
-Q: Was ist die Bachelorarbeit?
-A: Die Bachelorarbeit stellt für den Studierenden die Hauptarbeit und ein Leistungsnachweis an der HWR dar. Sie wird bewertet.
+A: Informatik ist das Studium der automatisierten Datenverarbeitung und umfasst die Entwicklung von Software und Systemen.
 
 TEXT:
 {source_text}
@@ -25,18 +22,17 @@ TEXT:
 
 
 def form_chat_prompt_followup():
-    """Form chat prompt for LLMs."""
+    """Form chat prompt for LLMs to expand existing Q&A list with new content."""
     return f"""
-Erstelle weitere Fragen und Antworten zu diesem Text.
-Beachte, dass die Fragen und Antworten bereits erstellt wurden und du nur weitere hinzufügen sollst.
-Die Fragen und Antworten sollen einfach und kurz sein.
-Erstelle sehr viele Fragen und Antworten, über 30.
+Basierend auf dem bereits diskutierten Text, erstelle zusätzliche Fragen und Antworten.
+Überprüfe die bisher erstellten Inhalte, um Wiederholungen zu vermeiden und sicherzustellen, dass alle Aspekte des Textes abgedeckt sind.
+Die neuen Fragen und Antworten sollen einfach, kurz und präzise sein.
 
-Formatiere die Fragen und Antworten in der richtigen Syntax, z.B.:
-Q: Was ist Informatik?
-A: Informatik beschreibt Kernprozesse, die für das Funktionieren nahezu aller Bereiche des privaten, gesellschaftlichen und beruflichen Lebens entscheidend sind.
-Q: Was ist die Bachelorarbeit?
-A: Die Bachelorarbeit stellt für den Studierenden die Hauptarbeit und ein Leistungsnachweis an der HWR dar. Sie wird bewertet.
+Beispiel für das Format:
+Q: Welche Rolle spielt die Bachelorarbeit im Studium?
+A: Die Bachelorarbeit ist ein wesentlicher Bestandteil des Abschlusses und dient als umfassender Leistungsnachweis.
+
+Denke daran, neue Perspektiven oder Informationen hinzuzufügen, die in der ersten Runde möglicherweise übersehen wurden.
 """.strip()
 
 
@@ -68,101 +64,123 @@ def faq_to_list(faq_string):
     return faq_list
 
 
-def calculate_tokens(messages, overall_max_tokens: int, output_max_tokens: int):
+def calculate_tokens(messages, max_context_tokens: int, max_response_tokens: int):
     """Returns the number of tokens used by a list of messages."""
     encoding = tiktoken.get_encoding("cl100k_base")
-    num_tokens = 0
+    current_context_tokens = 0
     for message in messages:
-        num_tokens += (
+        current_context_tokens += (
             4  # every message follows <im_start>{role/name}\n{content}<im_end>\n
         )
         for key, value in message.items():
-            num_tokens += len(encoding.encode(value))
+            current_context_tokens += len(encoding.encode(value))
             if key == "name":  # if there's a name, the role is omitted
-                num_tokens += -1  # role is always required and always 1 token
-    num_tokens += 2  # every reply is primed with <im_start>assistant
+                current_context_tokens += (
+                    -1
+                )  # role is always required and always 1 token
+    current_context_tokens += 2  # every reply is primed with <im_start>assistant
 
-    overall_max_tokens -= int(num_tokens * 1.1)
+    available_tokens = int(max_context_tokens - current_context_tokens * 1.1)
+    response_tokens = available_tokens
 
-    if overall_max_tokens < output_max_tokens:
-        output_max_tokens = overall_max_tokens
+    if available_tokens < 0:
+        response_tokens = 0
 
-    return num_tokens, output_max_tokens
+    if available_tokens > max_response_tokens:
+        response_tokens = max_response_tokens
+
+    elif available_tokens < max_response_tokens:
+        response_tokens = available_tokens
+
+    return current_context_tokens, response_tokens
 
 
-def create_faq(api_key, source_texts, model):
+def call_api(client: openai.OpenAI, model, messages, max_output_tokens):
+    response = None
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            max_tokens=max_output_tokens,
+        )
+    except openai.RateLimitError as e:
+        while True:
+            print("...API Ratenlimit erreicht. Warte 10 Sekunden...")
+            time.sleep(10)
+            try:
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=messages,
+                    max_tokens=max_output_tokens,
+                )
+                break
+            except openai.RateLimitError as e:
+                continue
+    return {"role": "assistant", "content": response.choices[0].message.content}
+
+
+def create_faq(api_key, source_text, model):
     """API Adapter for OpenAI's models.
     https://platform.openai.com/docs/introduction
     """
+    summary = []
 
-    # Create OpenAI API client
     client = openai.OpenAI(api_key=api_key)
-    calls = []
-
-    for source_text in source_texts:
-        # Create Prompt
-        messages = [
-            {
-                "role": "user",
-                "content": form_chat_prompt_first(source_text),
-            }
-        ]
-
-        # Count Input Tokens with 10% discount to make up for variations in tokenizers
-        num_tokens, max_output_tokens = calculate_tokens(
-            messages, model["max_tokens"], model["max_output_tokens"]
-        )
-        print(f"Input tokens: {num_tokens}")
-        print(f"Max Output tokens: {max_output_tokens}")
-
-        # Call API first time
-        response = client.chat.completions.create(
-            model=model["name"],
-            messages=messages,
-            max_tokens=max_output_tokens,
-        )
-
-        faq = faq_to_list(response.choices[0].message.content)
-
-        # Create Followup Prompt
-        messages = [
-            {
-                "role": "user",
-                "content": form_chat_prompt_first(source_text),
-            },
-            {
-                "role": "assistant",
-                "content": response.choices[0].message.content,
-            },
-            {
-                "role": "user",
-                "content": form_chat_prompt_followup(),
-            },
-        ]
-
-        # Count Input Tokens with 10% discount to make up for variations in tokenizers
-        num_tokens, max_output_tokens = calculate_tokens(
-            messages, model["max_tokens"], model["max_output_tokens"]
-        )
-        print(f"Input tokens: {num_tokens}")
-        print(f"Max Output tokens: {max_output_tokens}")
-
-        # Call API first time
-        response = client.chat.completions.create(
-            model=model["name"],
-            messages=messages,
-            max_tokens=max_output_tokens,
-        )
-
-        faq.extend(faq_to_list(response.choices[0].message.content))
-
-        summary = {
-            "input_tokens": num_tokens,
-            "output_tokens": response.usage.total_tokens - num_tokens,
-            "response": response.choices[0].message.content,
-            "faq": faq,
-            "source_text": source_text,
+    messages = [
+        {
+            "role": "user",
+            "content": form_chat_prompt_first(source_text),
         }
-        calls.append(summary)
+    ]
 
-    return calls
+    index = 1
+    print("==================================")
+    while (
+        calculate_tokens(messages, model["max_tokens"], model["max_output_tokens"])[1]
+        > 50
+    ):
+        # while the output can be larger than 50 tokens, e.g. one long FAQ
+
+        print(f"{index}. Durchlauf:")
+        index += 1
+
+        num_tokens, max_output_tokens = calculate_tokens(
+            messages, model["max_tokens"], model["max_output_tokens"]
+        )
+        print(f"Tokens im Kontext: {num_tokens}")
+        print(f"Freie Tokens für Antwort: {max_output_tokens}")
+
+        response_message = call_api(client, model["name"], messages, max_output_tokens)
+
+        messages.extend([response_message])
+
+        print(
+            f"Tokens in Antwort: {calculate_tokens([messages[-1]], model['max_tokens'], model['max_output_tokens'])[0]}"
+        )
+
+        neue_faq = faq_to_list(messages[-1])
+        print(f"Neue FAQs: {len(neue_faq)}")
+
+        used_tokens = calculate_tokens(
+            messages, model["max_tokens"], model["max_output_tokens"]
+        )[0]
+
+        messages.extend(
+            [
+                {
+                    "role": "user",
+                    "content": form_chat_prompt_followup(),
+                },
+            ]
+        )
+
+        summary.append(
+            {
+                "faq": neue_faq,
+                "used_tokens": used_tokens,
+            }
+        )
+
+        print("----------------------------------")
+
+    return summary

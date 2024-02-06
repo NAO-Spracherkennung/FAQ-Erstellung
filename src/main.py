@@ -18,7 +18,7 @@ models = {}
 models["openai"] = {}
 models["openai"]["gpt4_turbo"] = {
     "name": "gpt-4-0125-preview",
-    "max_tokens": 128000,
+    "max_tokens": 16384,  # Eigentlich 128000. Kann aber teuer werden, deswegen 16384
     "max_output_tokens": 4096,
 }
 models["openai"]["gpt4"] = {
@@ -32,7 +32,6 @@ models["openai"]["gpt35_turbo"] = {
     "max_output_tokens": 4096,
 }
 
-# Prepare source text
 source_text = scraper.scrape_to_json(
     "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/"
 )
@@ -41,16 +40,25 @@ split_md = util.split_md(source_md, 500)
 
 model = models["openai"]["gpt35_turbo"]
 
-calls = Api.create_faq(
+
+print("==================================")
+print(f"Erstelle FAQs mit {model['name']}")
+summary = Api.create_faq(
     api_key=SECRET_OPENAI_API_KEY,
-    # source_texts=split_md,
-    source_texts=[source_md],
+    source_text=source_md,
     model=model,
 )
-sum = 0
-for call in calls:
-    sum += len(call["faq"])
-print(f"{sum} FAQs erstellt mit {model}.")
+sum_faq = 0
+for message in summary:
+    sum_faq += len(message["faq"])
+sum_faq = len(summary[""])
+print("==================================")
+print(f"{sum_faq} FAQs erstellt mit {model['name']}.")
+
+sum_tokens = 0
+for message in summary:
+    sum_tokens += message["used_tokens"]
+print(f"Insgesamt verbrauchte Tokens: {sum_tokens}")
 
 timestr = datetime.datetime.now(tz=zoneinfo.ZoneInfo("Europe/Berlin")).strftime(
     "%Y-%m-%d-%H-%M"
@@ -60,7 +68,7 @@ timestr = datetime.datetime.now(tz=zoneinfo.ZoneInfo("Europe/Berlin")).strftime(
 os.makedirs("output", exist_ok=True)
 savepath = os.path.join("output", f"output-{model['name']}-{timestr}.json")
 with open(savepath, "w") as f:
-    f.write(str(json.dumps(calls)))
+    f.write(str(json.dumps(summary)))
 
 # write source text to file
 savepath = os.path.join("output", f"source-{model['name']}-{timestr}.json")
