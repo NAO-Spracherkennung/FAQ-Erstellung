@@ -1,0 +1,148 @@
+[
+  {
+    "faq": [
+      {
+        "question": "Was sind die Aufgaben einer Informatikerin oder eines Informatikers?",
+        "answer": "Die Aufgaben einer Informatikerin oder eines Informatikers umfassen Analyse, Entwicklung, Integration, Wartung und Pflege von Software und Systemen."
+      },
+      {
+        "question": "Was ist wichtig f\u00fcr eine erfolgreiche Projektabwicklung im Studiengang Informatik?",
+        "answer": "Neben fundierten Fachkenntnissen sind ein hohes Ma\u00df an Kommunikationsf\u00e4higkeit mit dem Anwender/Auftraggeber und die zielorientierte Teamarbeit entscheidend f\u00fcr eine erfolgreiche Projektabwicklung."
+      },
+      {
+        "question": "In welchen Bereichen k\u00f6nnen Absolventinnen und Absolventen des dualen Bachelorstudiengangs Informatik arbeiten?",
+        "answer": "Absolventinnen und Absolventen des Studiengangs k\u00f6nnen vor allem in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, IT-Dienstleistern und unternehmensinternen IT-Abteilungen arbeiten."
+      },
+      {
+        "question": "Was wird im Grundstudium des Informatikstudiums behandelt?",
+        "answer": "Im Grundstudium werden neben einer ausf\u00fchrlichen Programmierpraxis und Software-Engineering die mathematischen, theoretischen und technischen Grundlagen der Informatik behandelt."
+      },
+      {
+        "question": "Welche Inhalte werden im Hauptstudium des Informatikstudiums vertieft?",
+        "answer": "Im Hauptstudium werden vor allem vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke behandelt. Au\u00dferdem gibt es Wahlpflichtf\u00e4cher aus den Bereichen Grafik/Multimedia, K\u00fcnstliche Intelligenz und Mobile Systeme."
+      },
+      {
+        "question": "Was beinhalten die gr\u00f6\u00dferen Projekte im Hauptstudium des Informatikstudiums?",
+        "answer": "Im Hauptstudium werden gr\u00f6\u00dfere Projekte im Rahmen von zwei Studienarbeiten bearbeitet."
+      },
+      {
+        "question": "Wie schlie\u00dft das Informatikstudium ab?",
+        "answer": "Das Informatikstudium schlie\u00dft mit einer Bachelorarbeit ab, die auf der Bearbeitung einer betrieblichen Aufgabenstellung basiert."
+      },
+      {
+        "question": "Wo bewerben sich Interessierte an einem dualen Studium im Bereich Informatik?",
+        "answer": "Interessierte bewerben sich nicht bei der HWR Berlin, sondern anhand der Partner-Datenbank auf der Webseite der Hochschule."
+      },
+      {
+        "question": "Gibt es Geb\u00fchren f\u00fcr das Studium?",
+        "answer": "Nein, es fallen keine Geb\u00fchren f\u00fcr das Studium an."
+      },
+      {
+        "question": "Gibt es eine M\u00f6glichkeit der F\u00f6rderung durch BAf\u00f6G?",
+        "answer": "Es besteht m\u00f6glicherweise die M\u00f6glichkeit der F\u00f6rderung durch BAf\u00f6G."
+      },
+      {
+        "question": "Wie k\u00f6nnen weitere Informationen zum Studiengang Informatik eingeholt werden?",
+        "answer": "Weitere Informationen zum Studiengang Informatik k\u00f6nnen bei der Fachrichtungsb\u00fcro und der Beratung f\u00fcr Studieninteressierte eingeholt werden."
+      },
+      {
+        "question": "Welche Unternehmen sind Partnerunternehmen des Studiengangs Informatik?",
+        "answer": "Die Partnerunternehmen des Studiengangs Informatik sind unter anderem ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, SAP SE, United Internet AG und viele weitere."
+      },
+      {
+        "question": "Wem m\u00fcssen sich Interessierte f\u00fcr die Bewerbung um ein duales Studium im Bereich Informatik wenden?",
+        "answer": "Interessierte m\u00fcssen sich an die Partnerunternehmen des Studiengangs wenden, um sich f\u00fcr ein duales Studium im Bereich Informatik zu bewerben."
+      },
+      {
+        "question": "Gibt es Modul\u00fcbersichten und Terminpl\u00e4ne f\u00fcr das Informatikstudium?",
+        "answer": "Ja, es gibt Modul\u00fcbersichten und Terminpl\u00e4ne f\u00fcr das Informatikstudium."
+      },
+      {
+        "question": "Gibt es eine Fachleitung f\u00fcr den Informatikstudiengang?",
+        "answer": "Ja, es gibt eine Fachleitung f\u00fcr den Informatikstudiengang, die eine Orcid-ID hat."
+      },
+      {
+        "question": "Wo kann man sich f\u00fcr den Studiengang Informatik beraten lassen?",
+        "answer": "Man kann sich f\u00fcr den Studiengang Informatik bei der Studienberatung f\u00fcr Studieninteressierte der Hochschule f\u00fcr Wirtschaft und Recht Berlin beraten lassen."
+      },
+      {
+        "question": "Gibt es eine Studiengangsinfo zum Download?",
+        "answer": "Ja, es gibt eine Studiengangsinfo zum Download auf der Webseite der Hochschule."
+      },
+      {
+        "question": "Gibt es Geb\u00fchren f\u00fcr das Studium?",
+        "answer": "Nein, es fallen keine Geb\u00fchren f\u00fcr das Studium an."
+      },
+      {
+        "question": "Wer sind die Kooperationspartner des Studienprogramms?",
+        "answer": "Die Kooperationspartner des Studienprogramms sind am Ende der Webseite dargestellt."
+      },
+      {
+        "question": "Gibt es M\u00f6glichkeiten der F\u00f6rderung f\u00fcr das Studium?",
+        "answer": "Es gibt m\u00f6glicherweise F\u00f6rderm\u00f6glichkeiten durch BAf\u00f6G."
+      }
+    ],
+    "used_tokens": 2757
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche Rolle spielt die duale Ausbildung im Studiengang Informatik?",
+        "answer": "Die duale Ausbildung im Studiengang Informatik erm\u00f6glicht den Studierenden eine praktische Anwendung des erlernten Wissens und bereitet sie so gezielt auf zuk\u00fcnftige berufliche Herausforderungen vor."
+      },
+      {
+        "question": "Welche F\u00e4cher geh\u00f6ren zu den fach\u00fcbergreifenden Inhalten im Grundstudium?",
+        "answer": "Zu den fach\u00fcbergreifenden Inhalten im Grundstudium geh\u00f6ren unter anderem juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik."
+      },
+      {
+        "question": "Welche Aufgaben geh\u00f6ren zur betrieblichen Aufgabenstellung w\u00e4hrend des Studiums?",
+        "answer": "Die betriebliche Aufgabenstellung beinhaltet praxisrelevante Problemstellungen, die von den Studierenden, teilweise in Teams, selbstst\u00e4ndig bearbeitet werden."
+      },
+      {
+        "question": "Welche Unternehmen sind Partnerunternehmen f\u00fcr das duale Studium im Bereich Informatik?",
+        "answer": "Partnerunternehmen f\u00fcr das duale Studium im Bereich Informatik sind unter anderem ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, SAP SE und United Internet AG."
+      },
+      {
+        "question": "Was sind m\u00f6gliche Berufsfelder f\u00fcr Absolventinnen und Absolventen des dualen Bachelorstudiengangs Informatik?",
+        "answer": "M\u00f6gliche Berufsfelder f\u00fcr Absolventinnen und Absolventen sind Entwicklungsabteilungen von Softwareunternehmen, IT-Dienstleister und unternehmensinterne IT-Abteilungen."
+      },
+      {
+        "question": "Kann man eine F\u00f6rderung durch BAf\u00f6G erhalten, w\u00e4hrend man den Studiengang Informatik absolviert?",
+        "answer": "Es besteht die M\u00f6glichkeit einer F\u00f6rderung durch BAf\u00f6G w\u00e4hrend des Studiums."
+      },
+      {
+        "question": "Wo kann man weitere Informationen zum Studiengang Informatik erhalten?",
+        "answer": "Weitere Informationen zum Studiengang Informatik kann man beim Fachrichtungsb\u00fcro und der Studienberatung f\u00fcr Studieninteressierte erhalten."
+      },
+      {
+        "question": "Gibt es eine Orcid-ID f\u00fcr die Fachleitung des Informatikstudiengangs?",
+        "answer": "Ja, es gibt eine Orcid-ID f\u00fcr die Fachleitung des Informatikstudiengangs."
+      },
+      {
+        "question": "M\u00fcssen sich Studieninteressierte an der HWR Berlin bewerben, um den Informatikstudiengang zu absolvieren?",
+        "answer": "Nein, Studieninteressierte bewerben sich nicht an der HWR Berlin, sondern direkt bei den Dualen Partnern des Studiengangs."
+      },
+      {
+        "question": "Gibt es Geb\u00fchren f\u00fcr das Informatikstudium?",
+        "answer": "Nein, es fallen keine Geb\u00fchren f\u00fcr das Informatikstudium an."
+      },
+      {
+        "question": "Welche Inhalte werden im Hauptstudium des Informatikstudiums behandelt?",
+        "answer": "Im Hauptstudium werden vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke behandelt. Es gibt auch Wahlpflichtf\u00e4cher aus den Bereichen Grafik/Multimedia, K\u00fcnstliche Intelligenz und Mobile Systeme.\n\n\u00dcberpr\u00fcfung der bereits erstellten Inhalte:"
+      },
+      {
+        "question": "Was sind die Aufgaben einer Informatikerin oder eines Informatikers?",
+        "answer": "Die Aufgaben einer Informatikerin oder eines Informatikers umfassen Analyse, Entwicklung, Integration, Wartung und Pflege von Software und Systemen."
+      },
+      {
+        "question": "Was ist wichtig f\u00fcr eine erfolgreiche Projektabwicklung im Studiengang Informatik?",
+        "answer": "Neben fundierten Fachkenntnissen sind ein hohes Ma\u00df an Kommunikationsf\u00e4higkeit mit dem Anwender/Auftraggeber und Teamarbeit entscheidend f\u00fcr eine erfolgreiche Projektabwicklung."
+      },
+      {
+        "question": "In welchen Bereichen k\u00f6nnen Absolventinnen und Absolventen des dualen Bachelorstudiengangs Informatik arbeiten?",
+        "answer": "Absolventinnen und Absolvent"
+      }
+    ],
+    "used_tokens": 3808
+  }
+]

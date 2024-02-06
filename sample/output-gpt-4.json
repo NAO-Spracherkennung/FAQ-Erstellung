@@ -1,0 +1,343 @@
+[
+  {
+    "faq": [
+      {
+        "question": "Was sind die Aufgaben eines Informatikers?",
+        "answer": "Die Aufgaben eines Informatikers umfassen Analyse, Entwicklung, Integration, Wartung und Pflege von IT-Systemen."
+      },
+      {
+        "question": "Wie werden die Studierenden des dualen Bachelorstudiengangs Informatik auf die Komplexit\u00e4t ihrer Aufgaben vorbereitet?",
+        "answer": "Die Studierenden werden von Anfang an in konkrete Projekte eingebunden und schrittweise an die L\u00f6sungsfindung herangef\u00fchrt."
+      },
+      {
+        "question": "Welche F\u00e4higkeiten werden neben Fachkenntnissen f\u00fcr eine erfolgreiche Projektabwicklung ben\u00f6tigt?",
+        "answer": "Kommunikationsf\u00e4higkeit mit dem Anwender bzw. Auftraggeber und zielorientierte Teamarbeit sind f\u00fcr eine erfolgreiche Projektabwicklung entscheidend."
+      },
+      {
+        "question": "Welche Rolle spielen Kooperationsunternehmen im Studium der Studierenden?",
+        "answer": "Kooperationsunternehmen stehen den Studierenden als Partner w\u00e4hrend des Studiums zur Seite. Sie sch\u00e4rfen den Blick f\u00fcr das Wesentliche, geben Denkanst\u00f6\u00dfe, f\u00f6rdern die Kreativit\u00e4t, initiieren oder regen Projekte an und begleiten deren Umsetzung."
+      },
+      {
+        "question": "Welche Berufsfelder qualifiziert das duale Bachelorstudium der Informatik?",
+        "answer": "Das Studium qualifiziert f\u00fcr T\u00e4tigkeiten in der Softwareentwicklung und der Systemadministration, in IT-Abteilungen von Unternehmen, in Entwicklungsabteilungen von Softwareunternehmen und bei IT-Dienstleistern."
+      },
+      {
+        "question": "Was wird im Grundstudium des Studiengangs Informatik behandelt?",
+        "answer": "Im Grundstudium stehen eine ausf\u00fchrliche Praxis im Programmieren und Software-Engineering und die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund."
+      },
+      {
+        "question": "Was beinhaltet das Hauptstudium des Studiengangs Informatik?",
+        "answer": "Im Hauptstudium geht es um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Hinzu kommen Wahlpflichtf\u00e4cher aus den Bereichen Grafik/Multimedia, K\u00fcnstliche Intelligenz und Mobile Systeme."
+      },
+      {
+        "question": "Wie schlie\u00dft das Studium ab?",
+        "answer": "Das Studium schlie\u00dft mit einer Bachelorarbeit ab. Die Grundlage daf\u00fcr bildet die Bearbeitung einer betrieblichen Aufgabenstellung."
+      },
+      {
+        "question": "Wie erfolgt die Bewerbung f\u00fcr das duale Studium?",
+        "answer": "Interessierte bewerben sich anhand der Partner-Datenbank auf der Website direkt bei den Dualen Partnern. Diese w\u00e4hlen ihre zuk\u00fcnftigen dual Studierenden aus und schlie\u00dfen mit ihnen einen Studienvertrag ab."
+      },
+      {
+        "question": "Gibt es Geb\u00fchren f\u00fcr das Studium?",
+        "answer": "Nein, es fallen keine Studiengeb\u00fchren an, lediglich ein Semesterbeitrag k\u00f6nnte anfallen. Zudem besteht die M\u00f6glichkeit, durch BAf\u00f6G gef\u00f6rdert zu werden."
+      },
+      {
+        "question": "Welche Unternehmen sind Partner des Studiengangs?",
+        "answer": "Es gibt eine Vielzahl von Partnerunternehmen, darunter die ALSTOM Transportation Germany GmbH, die Bayer AG, die Deutsche Bahn AG, die Investitionsbank Berlin, das Robert-Koch-Institut und die SAP SE."
+      }
+    ],
+    "used_tokens": 2419
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche Schl\u00fcsseleigenschaften ben\u00f6tigen Informatiker laut der Studiengangsbeschreibung?",
+        "answer": "Neben fundierten Fachkenntnissen ben\u00f6tigen Informatiker ein hohes Ma\u00df an Kommunikationsf\u00e4higkeit und die F\u00e4higkeit zur zielorientierten Teamarbeit."
+      },
+      {
+        "question": "Welche Art von Unterst\u00fctzung bieten die Kooperationsunternehmen den Studierenden an?",
+        "answer": "Die Kooperationsunternehmen stehen den Studierenden als Partner zur Seite, die den Studierenden helfen, den Blick f\u00fcr das Wesentliche zu sch\u00e4rfen, Denkanst\u00f6\u00dfe zu geben, Kreativit\u00e4t zu f\u00f6rdern, Projekte zu initiieren oder anzusto\u00dfen und deren Umsetzung zu begleiten."
+      },
+      {
+        "question": "Welche Themen werden in den Wahlpflichtf\u00e4chern des Hauptstudiums behandelt?",
+        "answer": "Die Wahlpflichtf\u00e4cher behandeln Themen aus den Bereichen Grafik/Multimedia, K\u00fcnstliche Intelligenz und Mobile Systeme."
+      },
+      {
+        "question": "Welche Art von Aufgaben werden w\u00e4hrend des gesamten Studiums bearbeitet?",
+        "answer": "W\u00e4hrend des gesamten Studiums bearbeiten die Studierenden, teilweise in Teams, selbstst\u00e4ndig praxisrelevante Problemstellungen, um sie mit den Methoden der Informatik zu l\u00f6sen."
+      },
+      {
+        "question": "Worauf basiert die Bachelorarbeit?",
+        "answer": "Die Bachelorarbeit basiert auf der Bearbeitung einer betrieblichen Aufgabenstellung."
+      },
+      {
+        "question": "Wann m\u00fcssen sich Studierende f\u00fcr das Studium bewerben?",
+        "answer": "Viele Unternehmen f\u00fchren die Auswahlverfahren f\u00fcr dual Studierende \u00fcber ein Jahr vor Studienbeginn durch. Es wird daher empfohlen, sich rechtzeitig zu bewerben."
+      },
+      {
+        "question": "Wie ist das Studium akkreditiert?",
+        "answer": "Das Studium ist programmakkreditiert durch den Akkreditierungsrat."
+      },
+      {
+        "question": "Sind im Studium Kosten zu erwarten?",
+        "answer": "Es wird kein Studiengangsgeb\u00fchr erhoben. Erwartet wird nur ein Semesterbeitrag und eventuell eine F\u00f6rderung durch BAf\u00f6G."
+      },
+      {
+        "question": "Wie k\u00f6nnen Studieninteressierte eine Beratung erhalten?",
+        "answer": "Studieninteressierte k\u00f6nnen sich f\u00fcr eine Beratung per E-Mail an studienberatung.dual(at)hwr-berlin.de wenden."
+      },
+      {
+        "question": "Welche Unternehmen sind Partner dieses Studienprogramms?",
+        "answer": "Partnerunternehmen sind zum Beispiel ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, Freie Universit\u00e4t Berlin, SAP SE, und viele mehr."
+      }
+    ],
+    "used_tokens": 3153
+  },
+  {
+    "faq": [
+      {
+        "question": "Was umfasst das Hauptstudium neben den vertiefenden Inhalten der Informatik und den Wahlpflichtf\u00e4chern?",
+        "answer": "Die Studierenden bearbeiten w\u00e4hrend des Hauptstudiums gr\u00f6\u00dfere Projekte im Rahmen von zwei Studienarbeiten."
+      },
+      {
+        "question": "Wie sind die Bewerbungsverfahren f\u00fcr das duale Studium organisiert?",
+        "answer": "Die Bewerberinnen und Bewerber bewerben sich direkt bei den Dualen Partnern. Diese f\u00fchren die Auswahlverfahren h\u00e4ufig \u00fcber ein Jahr vor dem Studienbeginn durch."
+      },
+      {
+        "question": "Was bedeutet \"programmakkreditiert durch den Akkreditierungsrat\"?",
+        "answer": "Das bedeutet, dass der Studiengang von einer unabh\u00e4ngigen Institution nach bestimmten Qualit\u00e4tsstandards \u00fcberpr\u00fcft und f\u00fcr gut befunden wurde."
+      },
+      {
+        "question": "Wie k\u00f6nnen sich Studieninteressierte an der HWR Berlin bewerben?",
+        "answer": "Studieninteressierte bewerben sich nicht bei der HWR Berlin, sondern direkt bei den Dualen Partnern."
+      },
+      {
+        "question": "Welche Art von Unterst\u00fctzung gibt es m\u00f6glicherweise f\u00fcr Studiengeb\u00fchren?",
+        "answer": "Es kann eine F\u00f6rderung durch BAf\u00f6G geben."
+      },
+      {
+        "question": "Wie k\u00f6nnen sich die Studierenden auf zuk\u00fcnftige berufliche Herausforderungen vorbereiten?",
+        "answer": "Die Beteiligung an konkreten Projekten und die Zusammenarbeit mit den Kooperationsunternehmen w\u00e4hrend des Studiums bereiten die Studierenden auf zuk\u00fcnftige berufliche Herausforderungen vor."
+      },
+      {
+        "question": "Gibt es eine Fachbereichsleitung f\u00fcr den Studiengang Informatik an der HWR Berlin?",
+        "answer": "Ja, es gibt eine Fachbereichsleitung, aber der Text bietet keine weiteren Informationen dazu."
+      },
+      {
+        "question": "An wen k\u00f6nnen sich Studieninteressierte f\u00fcr Beratung wenden?",
+        "answer": "Studieninteressierte k\u00f6nnen sich per Email an studienberatung.dual(at)hwr-berlin.de wenden."
+      },
+      {
+        "question": "Gibt es eine Liste der Partnerunternehmen des Studiengangs Informatik?",
+        "answer": "Ja, es gibt eine umfangreiche Liste der Partnerunternehmen, einschlie\u00dflich ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, SAP SE und vielen anderen."
+      }
+    ],
+    "used_tokens": 3820
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche fach\u00fcbergreifenden Inhalte werden im Informatikstudium behandelt?",
+        "answer": "Fach\u00fcbergreifende Inhalte wie juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik werden ebenfalls behandelt."
+      },
+      {
+        "question": "Welchen Anteil in der Flugzeugentwicklung und Innovationen im Auto entfallen auf Software und Kommunikationstechnik bzw. Informatik?",
+        "answer": "Heute entfallen bereits 60 Prozent der Wertsch\u00f6pfung in der Flugzeugentwicklung auf Software und Kommunikationstechnik, 90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+      },
+      {
+        "question": "Ist der Einsatzradius einer Informatikerin bzw. eines Informatikers eingeschr\u00e4nkt?",
+        "answer": "Nein, der sp\u00e4tere breite Einsatzradius einer Informatikerin bzw. eines Informatikers erm\u00f6glicht eine gro\u00dfe Auswahl an Kooperationsunternehmen."
+      },
+      {
+        "question": "Entstehen gr\u00f6\u00dfere Projekte nur im Hauptstudium?",
+        "answer": "Nein, bereits w\u00e4hrend des gesamten Studiums bearbeiten die Studierenden, teilweise in Teams, selbstst\u00e4ndig praxisrelevante Problemstellungen."
+      },
+      {
+        "question": "Welchen Umfang hat die Bachelorarbeit im Studiengang Informatik?",
+        "answer": "Die Bachelorarbeit bildet den Abschluss des Studiums und basiert auf der Bearbeitung einer betrieblichen Aufgabenstellung."
+      },
+      {
+        "question": "Muss die Bewerbung f\u00fcr das Studium direkt bei der HWR Berlin eingereicht werden?",
+        "answer": "Nein, Interessierte an einem dualen Studium bewerben sich nicht bei der HWR Berlin, sondern direkt bei den Dualen Partnern."
+      },
+      {
+        "question": "Fallen Geb\u00fchren f\u00fcr das Informatik-Studium an der HWR Berlin an?",
+        "answer": "Nein, es fallen keine speziellen Studiengeb\u00fchren an. Studierende m\u00fcssen lediglich einen Semesterbeitrag leisten und k\u00f6nnen ggf. eine F\u00f6rderung durch BAf\u00f6G erhalten."
+      },
+      {
+        "question": "An wen kann ich mich f\u00fcr weitere Informationen oder Beratung bez\u00fcglich des Informatik-Studiums wenden?",
+        "answer": "F\u00fcr weitere Informationen oder Beratung k\u00f6nnen Sie sich per Email an studienberatung.dual(at)hwr-berlin.de wenden."
+      }
+    ],
+    "used_tokens": 4484
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche Rolle spielen die Studienarbeiten im Studium?",
+        "answer": "Im Hauptstudium werden gr\u00f6\u00dfere Projekte im Rahmen von zwei Studienarbeiten bearbeitet."
+      },
+      {
+        "question": "Welche Auswahl an Kooperationsunternehmen erwartet die Studierenden?",
+        "answer": "Der breite Einsatzradius einer Informatikerin bzw. eines Informatikers generiert eine gro\u00dfe Auswahl an Kooperationsunternehmen, die den Studierenden als Partner w\u00e4hrend des Studiums zur Seite stehen."
+      },
+      {
+        "question": "Wie stark sind Software und Kommunikationstechnik in der Flugzeugentwicklung und den Innovationen im Auto involviert?",
+        "answer": "60 Prozent der Wertsch\u00f6pfung in der Flugzeugentwicklung entfallen auf Software und Kommunikationstechnik, und 90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+      },
+      {
+        "question": "Enth\u00e4lt das Studium einen Praxisanteil?",
+        "answer": "Ja, die Studierenden werden von Anfang an in konkrete Projekte eingebunden und bearbeiten w\u00e4hrend des gesamten Studiums selbstst\u00e4ndig praxisrelevante Problemstellungen."
+      },
+      {
+        "question": "Wie werden die Studierenden von den Dualen Partnern ausgew\u00e4hlt?",
+        "answer": "Die Dualen Partner w\u00e4hlen unter den Bewerberinnen und Bewerbern ihre zuk\u00fcnftigen dual Studierenden aus und schlie\u00dfen mit ihnen einen Studienvertrag ab."
+      },
+      {
+        "question": "Gibt es F\u00f6rderm\u00f6glichkeiten f\u00fcr das Studium?",
+        "answer": "Ja, eventuell besteht die M\u00f6glichkeit einer F\u00f6rderung durch BAf\u00f6G."
+      },
+      {
+        "question": "Wie k\u00f6nnen Interessierte die Studiengangsinfo herunterladen?",
+        "answer": "Der Text bietet keinen direkten Link, aber es wird erw\u00e4hnt, dass Interessierte die Studiengangsinfo herunterladen k\u00f6nnen."
+      },
+      {
+        "question": "Sind die Partnerunternehmen des Studiengangs nur auf Berlin beschr\u00e4nkt?",
+        "answer": "Nein, die Liste der Partnerunternehmen enth\u00e4lt sowohl Unternehmen mit Sitz in Berlin als auch im weiteren Umfeld. Beispiele sind die Berliner Verkehrsbetriebe (BVG), die SAP SE oder die Thales Deutschland."
+      }
+    ],
+    "used_tokens": 5115
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche Themen umfasst das Grundstudium im Studiengang Informatik au\u00dfer Programmieren und Software-Engineering?",
+        "answer": "Im Grundstudium stehen auch die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund."
+      },
+      {
+        "question": "In welchem Kontext findet die Projektabwicklung im Studium statt?",
+        "answer": "Die Projektabwicklung findet sowohl im Rahmen des Studiums als auch in Zusammenarbeit mit den Kooperationsunternehmen statt."
+      },
+      {
+        "question": "In welchen Branchen k\u00f6nnen Absolventen des Studiengangs eingesetzt werden?",
+        "answer": "Absolventen des Studiengangs k\u00f6nnen in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, bei IT-Dienstleistern oder in unternehmensinternen IT-Abteilungen zum Einsatz kommen."
+      },
+      {
+        "question": "Wie tr\u00e4gt das Studium zur Vorbereitung auf zuk\u00fcnftige berufliche Herausforderungen bei?",
+        "answer": "Durch die Einbindung der Studierenden in konkrete Projekte und die Zusammenarbeit mit Kooperationsunternehmen werden sie bestens auf zuk\u00fcnftige berufliche Herausforderungen vorbereitet."
+      },
+      {
+        "question": "Wie kann man sich f\u00fcr das Studium bewerben?",
+        "answer": "Interessierte bewerben sich mittels Partnerdatenbank direkt bei den Dualen Partnern und nicht bei der HWR Berlin."
+      },
+      {
+        "question": "Welche sind einige der Partnerunternehmen des Studiengangs?",
+        "answer": "Einige der Partnerunternehmen sind ALSTOM Transportation Germany GmbH, Bayer AG, BSH Hausger\u00e4te GmbH, Deutsche Bahn AG, Freie Universit\u00e4t Berlin, SAP SE und viele andere Unternehmen und Institutionen."
+      },
+      {
+        "question": "Wie erfolgt die Finanzierung des Studiums?",
+        "answer": "Es entstehen keine Studiengeb\u00fchren. Es f\u00e4llt lediglich ein Semesterbeitrag an und es besteht eventuell die M\u00f6glichkeit einer F\u00f6rderung durch BAf\u00f6G."
+      },
+      {
+        "question": "Wo kann man zus\u00e4tzliche Informationen oder Beratung zum Studiengang erhalten?",
+        "answer": "F\u00fcr zus\u00e4tzliche Informationen oder Beratung k\u00f6nnen Studieninteressierte sich an studienberatung.dual(at)hwr-berlin.de wenden."
+      }
+    ],
+    "used_tokens": 5761
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche vertiefenden Inhalte gibt es im Hauptstudium des Informatikstudiengangs?",
+        "answer": "Im Hauptstudium geht es um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke."
+      },
+      {
+        "question": "Wie viel Zeit vor dem Studienbeginn sollte man sich f\u00fcr das duale Studium bewerben?",
+        "answer": "Viele Unternehmen f\u00fchren die Auswahlverfahren f\u00fcr dual Studierende \u00fcber ein Jahr vor Studienbeginn durch. Es wird daher empfohlen, sich rechtzeitig zu bewerben."
+      },
+      {
+        "question": "Was geschieht, nachdem sich Studierende bei Dualen Partnern beworben haben?",
+        "answer": "Die Dualen Partner w\u00e4hlen ihre zuk\u00fcnftigen dual Studierenden aus den Bewerberinnen und Bewerbern aus und schlie\u00dfen mit ihnen einen Studienvertrag ab."
+      },
+      {
+        "question": "Welche finanziellen Aspekte m\u00fcssen Studierende beim Studium ber\u00fccksichtigen?",
+        "answer": "Zwar fallen keine Studiengeb\u00fchren an, jedoch ist ein Semesterbeitrag zu leisten. Eventuell gibt es die M\u00f6glichkeit einer F\u00f6rderung durch BAf\u00f6G."
+      },
+      {
+        "question": "Wo k\u00f6nnen weitere Informationen oder Beratungen \u00fcber das Studium eingeholt werden?",
+        "answer": "F\u00fcr weitere Informationen oder Beratungen k\u00f6nnen sich Interessierte per E-Mail an studienberatung.dual(at)hwr-berlin.de wenden."
+      },
+      {
+        "question": "Wo finden die Studierenden Informationen \u00fcber die Partnerunternehmen des Studiengangs?",
+        "answer": "Eine Liste mit den Kooperationspartnern dieses Studienprogramms ist am Ende der Webseite des Studiengangs dargestellt."
+      },
+      {
+        "question": "Was passiert w\u00e4hrend der Hauptstudiumsphase?",
+        "answer": "W\u00e4hrend des Hauptstudiums wird vor allem auf vertiefte Inhalte der Informatik eingegangen und es werden gr\u00f6\u00dfere Projekte im Rahmen von zwei Studienarbeiten bearbeitet."
+      },
+      {
+        "question": "Wie endet das Studium an der Hochschule f\u00fcr Wirtschaft und Recht Berlin?",
+        "answer": "Das Studium endet mit der Einreichung einer Bachelorarbeit, die auf der Bearbeitung einer betrieblichen Aufgabenstellung basiert."
+      }
+    ],
+    "used_tokens": 6397
+  },
+  {
+    "faq": [
+      {
+        "question": "Welcher Bereich der Informatik wird im Hauptstudium behandelt?",
+        "answer": "Im Hauptstudium geht es um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke."
+      },
+      {
+        "question": "Was kann man von den jeweiligen Kooperationsunternehmen w\u00e4hrend des Studiums erwarten?",
+        "answer": "Die Kooperationsunternehmen sch\u00e4rfen den Blick f\u00fcr das Wesentliche, geben Denkanst\u00f6\u00dfe, f\u00f6rdern Kreativit\u00e4t, initiieren oder regen Projekte an und begleiten deren Umsetzung."
+      },
+      {
+        "question": "Mit welchen Arten von Unternehmen k\u00f6nnen Absolventen des Studiengangs erwarten zu arbeiten?",
+        "answer": "Absolventen k\u00f6nnen in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, bei IT-Dienstleistern oder in unternehmensinternen IT-Abteilungen zum Einsatz kommen."
+      },
+      {
+        "question": "Was beinhalten die Wahlpflichtf\u00e4cher im Studium?",
+        "answer": "Die Wahlpflichtf\u00e4cher stammen aus den Gebieten Grafik/Multimedia, K\u00fcnstliche Intelligenz und Mobile Systeme."
+      },
+      {
+        "question": "Ist die Bearbeitung einer betrieblichen Aufgabenstellung ein Teil des Studiums?",
+        "answer": "Ja, die Bearbeitung einer betrieblichen Aufgabenstellung ist die Grundlage f\u00fcr die abschlie\u00dfende Bachelorarbeit."
+      },
+      {
+        "question": "Wie verl\u00e4uft der Bewerbungsprozess f\u00fcr das duale Studium?",
+        "answer": "Interessierte bewerben sich nicht bei der HWR Berlin, sondern direkt bei den Dualen Partnern, die ihre zuk\u00fcnftigen Studierenden ausw\u00e4hlen und mit ihnen einen Studienvertrag abschlie\u00dfen."
+      },
+      {
+        "question": "Fallen im Rahmen des Studiums Geb\u00fchren an?",
+        "answer": "F\u00fcr das Studium fallen keine Geb\u00fchren an, es wird jedoch ein Semesterbeitrag erhoben. Zudem besteht die M\u00f6glichkeit einer F\u00f6rderung durch BAf\u00f6G."
+      },
+      {
+        "question": "Wo kann man bei Anfragen zu dem Studiengang Unterst\u00fctzung erhalten?",
+        "answer": "Bei Fragen und Anfragen zu dem Studiengang k\u00f6nnen sich Interessierte per Email an studienberatung.dual(at)hwr-berlin.de wenden."
+      },
+      {
+        "question": "Wer sind einige der spezifischen Partnerunternehmen des Studiengangs?",
+        "answer": "Zu den spezifischen Partnern des Studiengangs z\u00e4hlen unter anderem ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, SAP SE oder die Freie Universit\u00e4t Berlin."
+      }
+    ],
+    "used_tokens": 7112
+  },
+  {
+    "faq": [
+      {
+        "question": "Welche F\u00e4cher werden im Grundstudium der Informatik neben Praxis im Programmieren und Software-Engineering behandelt?",
+        "answer": "Im Grundstudium stehen auch die mathematischen, theoretischen und technischen Grundlagen der Informatik sowie juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik im Vordergrund."
+      },
+      {
+        "question": "Was sind die typischen T\u00e4tigkeiten eines Informatikers?",
+        "answer": "Die Aufgaben eines Informatikers beinhalten die Analyse, Entwicklung, Integration, Wartung und Pflege von IT-Systemen."
+      },
+      {
+        "question": "Was umfasst der Einsatzradius eines Informatikers laut der Hochschule f\u00fcr Wirtschaft und Recht Berlin?",
+        "answer": "Der Einsatzradius eines Informatikers ist breit und spiegelt sich in der gro\u00dfen Auswahl an Kooperationsunternehmen wider, die w\u00e4hrend des"
+      }
+    ],
+    "used_tokens": 7469
+  }
+]
