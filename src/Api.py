@@ -148,6 +148,7 @@ def create_faq(api_key, source_text, model):
             messages, model["max_tokens"], model["max_output_tokens"]
         )
         print(f"Tokens im Kontext: {num_tokens}")
+        print(f"Freie Tokens im Kontext: {model['max_tokens'] - num_tokens}")
         print(f"Freie Tokens für Antwort: {max_output_tokens}")
 
         response_message = call_api(client, model["name"], messages, max_output_tokens)
@@ -158,7 +159,7 @@ def create_faq(api_key, source_text, model):
             f"Tokens in Antwort: {calculate_tokens([messages[-1]], model['max_tokens'], model['max_output_tokens'])[0]}"
         )
 
-        neue_faq = faq_to_list(messages[-1])
+        neue_faq = faq_to_list(messages[-1]["content"])
         print(f"Neue FAQs: {len(neue_faq)}")
 
         used_tokens = calculate_tokens(
