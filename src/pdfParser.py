@@ -102,16 +102,7 @@ def build_content(pdfcontent, filename):
     return content
 
 
-def pdf_parser():
-    urls = [
-        "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/",
-        "https://www.hwr-berlin.de/hwr-berlin/fachbereiche-und-bps/fb-2-duales-studium/studieren-am-fachbereich/studienorganisation/",
-    ]
-
-    target_labels = [
-        "Modulübersicht",
-        "Rahmenstudien- und Prüfungsordnung der HWR Berlin",
-    ]
+def pdf_parser(urls, target_labels):
 
     pdf_text_content = []
 
@@ -126,7 +117,16 @@ def pdf_parser():
 
 
 def main():
-    content = pdf_parser()
+    urls = [
+        "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/",
+        "https://www.hwr-berlin.de/hwr-berlin/fachbereiche-und-bps/fb-2-duales-studium/studieren-am-fachbereich/studienorganisation/",
+    ]
+
+    target_labels = [
+        "Modulübersicht",
+        "Rahmenstudien- und Prüfungsordnung der HWR Berlin",
+    ]
+    content = pdf_parser(urls, target_labels)
     print(content)
 
 
