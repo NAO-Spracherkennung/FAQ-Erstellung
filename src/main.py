@@ -1,72 +1,101 @@
 import datetime
+import json
 import os
 import zoneinfo
 
 import dotenv
 
-import adapter.Jurassic
-import adapter.Openai
+import Api
 import scraper
 import util
 
-dotenv.load_dotenv()
-SECRET_OPENAI_API_KEY = os.getenv("SECRET_OPENAI_API_KEY")
-SECRET_COHERE_API_KEY = os.getenv("SECRET_COHERE_API_KEY")
-SECRET_JURASSIC_API_KEY = os.getenv("SECRET_JURASSIC_API_KEY")
+
+def json_to_md(json, level=0):
+    """
+    Transforms a JSON object or list into a markdown string.
+    Returns a markdown string.
+    """
+    md = ""
+    for item in json:
+        if isinstance(item, dict):
+            md += f"{'#' * (level + 1)} {item['title']}\n\n"
+            md += json_to_md(item["content"], level + 1)
+        elif isinstance(item, str):
+            md += f"{item}\n\n"
+        elif isinstance(item, list):
+            md += json_to_md(item, level + 1)
+
+    return md
 
 
-models = {}
-models["openai"] = {}
-models["openai"]["gpt4_turbo"] = "gpt-4-0125-preview"
-models["openai"]["gpt4"] = "gpt-4"
-models["openai"]["gpt35_turbo"] = "gpt-3.5-turbo-0125"
-models["jurassic"] = {}
-models["jurassic"]["j2_light"] = "j2-light"
-models["jurassic"]["j2_mid"] = "j2-mid"
-models["jurassic"]["j2_ultra"] = "j2-ultra"
+def create_faq(source_text):
+    dotenv.load_dotenv()
+    SECRET_OPENAI_API_KEY = os.getenv("SECRET_OPENAI_API_KEY")
 
-# Prepare source text
-source_text = scraper.scrape_to_json(
-    "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/"
-)
-source_md = util.json_to_md(source_text)
-split_md = util.split_md(source_md, 500)
+    models = {}
+    models["openai"] = {}
+    models["openai"]["gpt4_turbo"] = {
+        "name": "gpt-4-0125-preview",
+        "max_tokens": 8192,  # Eigentlich 128000. Ist aber auf einem "normalen" Account auf 8192 beschränkt.
+        "max_output_tokens": 4096,
+    }
+    models["openai"]["gpt4"] = {
+        "name": "gpt-4",
+        "max_tokens": 8192,
+        "max_output_tokens": 4096,
+    }
+    models["openai"]["gpt35_turbo"] = {
+        "name": "gpt-3.5-turbo",
+        "max_tokens": 4096,
+        "max_output_tokens": 4096,
+    }
 
-model = models["openai"]["gpt35_turbo"]
+    source_md = json_to_md(source_text)
 
-calls = adapter.Openai.create_faq(
-    api_key=SECRET_OPENAI_API_KEY,
-    source_texts=split_md,
-    model=model,
-)
-sum = 0
-for call in calls:
-    sum += len(call["response"])
-print(f"{sum} FAQ erstellt mit {model}.")
+    model = models["openai"]["gpt4_turbo"]
 
-model = models["jurassic"]["j2_ultra"]
+    print("==================================")
+    print(f"Erstelle FAQs mit {model['name']}")
+    summary = Api.create_faq(
+        api_key=SECRET_OPENAI_API_KEY,
+        source_text=source_md,
+        model=model,
+    )
+    sum_faq = 0
+    for message in summary:
+        sum_faq += len(message["faq"])
+    print("==================================")
+    print(f"{sum_faq} FAQs erstellt mit {model['name']}.")
 
-calls = adapter.Jurassic.create_faq(
-    api_key=SECRET_JURASSIC_API_KEY,
-    source_texts=split_md,
-    model=model,
-)
-sum = 0
-for call in calls:
-    sum += len(call["response"])
-print(f"{sum} FAQ erstellt mit {model}.")
+    sum_tokens = 0
+    for message in summary:
+        sum_tokens += message["used_tokens"]
+    print(f"Insgesamt verbrauchte Tokens: {sum_tokens}")
 
-timestr = datetime.datetime.now(tz=zoneinfo.ZoneInfo("Europe/Berlin")).strftime(
-    "%Y-%m-%d-%H-%M"
-)
+    timestr = datetime.datetime.now(tz=zoneinfo.ZoneInfo("Europe/Berlin")).strftime(
+        "%Y-%m-%d-%H-%M"
+    )
 
-# Write calls to file
-os.makedirs("output", exist_ok=True)
-savepath = os.path.join("output", f"output-{model}-{timestr}.json")
-with open(savepath, "w", encoding="utf-8") as f:
-    f.write(str(calls))
+    # Write calls to file
+    os.makedirs("output", exist_ok=True)
+    savepath = os.path.join("output", f"output-{model['name']}-{timestr}.json")
+    with open(savepath, "w") as f:
+        f.write(str(json.dumps(summary)))
 
-# write source text to file
-savepath = os.path.join("output", f"source-{model}-{timestr}.json")
-with open(savepath, "w", encoding="utf-8") as f:
-    f.write(str(source_text))
+    # write source text to file
+    savepath = os.path.join("output", f"source-{model['name']}-{timestr}.json")
+    with open(savepath, "w") as f:
+        f.write(str(source_text))
+
+    all_faq = []
+    for message in summary:
+        all_faq.extend(message["faq"])
+
+    return all_faq
+
+
+if __name__ == "__main__":
+    source_text = scraper.scrape_to_json(
+        "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/"
+    )
+    faq = create_faq(source_text)
