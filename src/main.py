@@ -7,7 +7,6 @@ import dotenv
 
 import Api
 import scraper
-import util
 
 
 def json_to_md(json, level=0):
