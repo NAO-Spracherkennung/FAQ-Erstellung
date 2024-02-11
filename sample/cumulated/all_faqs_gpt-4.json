@@ -1,0 +1,1330 @@
+[
+  {
+    "question": "Was ist Informatik?",
+    "answer": "Informatik ist mehr als eine Computerwissenschaft und beinhaltet die Aufgaben der Analyse, Entwicklung, Integration, Wartung und Pflege von Informationssystemen, die essentiell für das Funktionieren fast aller Lebensbereiche sind."
+  },
+  {
+    "question": "Was sind die zentralen Prozesse, die Informatiker behandeln?",
+    "answer": "Informatiker behandeln Kernprozesse wie die Analyse, Entwicklung, Integration, Wartung und Pflege von Systemen, die für privat, gesellschaftlich und beruflich relevante Bereiche entscheidend sind."
+  },
+  {
+    "question": "Wie werden die Studierenden des dualen Bachelorstudiengangs Informatik darauf vorbereitet, diesen komplexen Ansprüchen gerecht zu werden?",
+    "answer": "Die Studierenden werden von Anfang an in konkrete Projekte eingebunden und lernen, sich Schritt für Schritt an die Lösung heranzutasten. Sie lernen auch die Bedeutung von Kommunikationsfähigkeit und zielorientierter Teamarbeit für eine erfolgreiche Projektabwicklung."
+  },
+  {
+    "question": "Welche Berufe qualifiziert das duale Bachelorstudium in Informatik?",
+    "answer": "Das Studium qualifiziert sowohl für Tätigkeiten in der Softwareentwicklung als auch in der Systemadministration."
+  },
+  {
+    "question": "In welchen Bereichen finden Absolventen des Studiengangs typischerweise Arbeit?",
+    "answer": "Absolventen kommen vor allem in Entwicklungsabteilungen von Softwareunternehmen, IT-Dienstleistern und unternehmensinternen IT-Abteilungen zum Einsatz."
+  },
+  {
+    "question": "Welche Themengebiete werden im Grundstudium behandelt?",
+    "answer": "Im Grundstudium stehen Praxis im Programmieren und Software-Engineering, mathematische, theoretische und technische Grundlagen der Informatik sowie fachübergreifende Inhalte im Mittelpunkt."
+  },
+  {
+    "question": "Was sind die fachübergreifenden Inhalte, die im Grundstudium behandelt werden?",
+    "answer": "Die fachübergreifenden Inhalte umfassen die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik."
+  },
+  {
+    "question": "Was ist der Schwerpunkt des Hauptstudiums?",
+    "answer": "Das Hauptstudium konzentriert sich auf vertiefende Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke, ergänzt durch Wahlpflichtfächer aus den Bereichen Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie schließt das Studium ab?",
+    "answer": "Das Studium schließt mit der Bearbeitung einer betrieblichen Aufgabenstellung im Rahmen einer Bachelorarbeit ab."
+  },
+  {
+    "question": "Wie kann man sich für das duale Studium an der HWR Berlin bewerben?",
+    "answer": "Interessierte bewerben sich nicht bei der HWR Berlin, sondern direkt bei den Dualen Partnern über die Partner-Datenbank auf der Website der Hochschule. Diese Partner wählen ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Gibt es Gebühren für das Studium an der HWR Berlin?",
+    "answer": "Nein, es gibt keine Gebühren, aber einen Semesterbeitrag. Es besteht die Möglichkeit, durch BAföG gefördert zu werden."
+  },
+  {
+    "question": "Wo kann ich weitere Informationen zur Bewerbung für diesen Studiengang erhalten?",
+    "answer": "Du kannst dich an das Fachrichtungsbüro oder die Studienberatung (studienberatung.dual(at)hwr-berlin.de) wenden."
+  },
+  {
+    "question": "Gibt es eine Liste der Partnerunternehmen, die mit der HWR Berlin zusammenarbeiten?",
+    "answer": "Ja, eine Liste von Partnerunternehmen ist auf der Website der HWR Berlin verfügbar, darunter Unternehmen wie die Deutsche Bahn AG, die Mercedes-Benz Tech Innovation GmbH und SAP SE."
+  },
+  {
+    "question": "Wie sind Praxiserfahrungen in den Studienverlauf integriert?",
+    "answer": "Praxisrelevante Problemstellungen werden während des gesamten Studiums bearbeitet, teilweise in Teams. Dazu gehören auch betriebliche Aufgaben, die von Dozenten begleitet werden."
+  },
+  {
+    "question": "Welche Art von Projekten werden im Hauptstudium durchgeführt?",
+    "answer": "Im Hauptstudium werden größere Projekte durch zwei Studienarbeiten bearbeitet, die das im Studium erlernte Wissen anwenden und vertiefen."
+  },
+  {
+    "question": "Was sind die wichtigsten Fähigkeiten, die für die erfolgreiche Projektabwicklung in der Informatik benötigt werden?",
+    "answer": "Neben fundierten Fachkenntnissen sind ein hohes Maß an Kommunikationsfähigkeit mit Anwendern oder Auftraggebern und die Fähigkeit zur zielorientierten Teamarbeit entscheidend."
+  },
+  {
+    "question": "In welchen Branchen ist der Studiengang Informatik besonders relevant?",
+    "answer": "Der Studiengang ist insbesondere in Branchen wie der Flugzeug- und Fahrzeugentwicklung relevant, in denen bereits 60 Prozent beziehungsweise 90 Prozent aller Innovationen mit der Informatik zu tun haben."
+  },
+  {
+    "question": "Wie bewerbe ich mich für einen dualen Studienplatz?",
+    "answer": "Sie bewerben sich direkt bei den Dualen Partnern, die in der Partner-Datenbank auf der Website der Hochschule aufgeführt sind. Diese Partner wählen ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Welcher Rat wird Bewerbern für duale Studienplätze gegeben?",
+    "answer": "Bewerber werden aufgefordert, sich rechtzeitig zu bewerben, da viele Unternehmen ihre Auswahlverfahren für duale Studierende über ein Jahr vor Studienbeginn durchführen."
+  },
+  {
+    "question": "Was bedeutet es, dass das Programm \"akkreditiert\" ist?",
+    "answer": "Akkreditierung bedeutet, dass das Programm von einer anerkannten Institution geprüft und für gut befunden wurde. In diesem Fall wurde das Programm vom Akkreditierungsrat akkreditiert."
+  },
+  {
+    "question": "Gibt es finanzielle Unterstützung für das Studium?",
+    "answer": "Es wird keine Studiengebühr erhoben, es gibt nur einen Semesterbeitrag. Potenzielle Förderung könnte durch das BAföG erfolgen."
+  },
+  {
+    "question": "An wen kann man sich wenden, wenn man Fragen zu dem Studiengang hat?",
+    "answer": "Sie können sich an die Studienberatung (studienberatung.dual(at)hwr-berlin.de) wenden."
+  },
+  {
+    "question": "Warum sind Kooperationsunternehmen wichtig im dualen Bachelorstudiengang Informatik?",
+    "answer": "Kooperationsunternehmen sind wichtige Partner während des Studiums. Sie helfen den Studierenden, den Blick für das Wesentliche zu schärfen, geben Denkanstöße, fördern Kreativität, initiieren oder regen Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Wie viel Prozent der Wertschöpfung in der Flugzeugentwicklung entfällt auf Software und Kommunikationstechnik?",
+    "answer": "60 Prozent der Wertschöpfung in der Flugzeugentwicklung entfällt auf Software und Kommunikationstechnik."
+  },
+  {
+    "question": "Wie viel Prozent der Innovationen im Auto haben mit Informatik zu tun?",
+    "answer": "90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+  },
+  {
+    "question": "Was wird im Hauptstudium neben den vertieften Inhalten der Informatik behandelt?",
+    "answer": "Hinzu kommen Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie können Interessierte sich für das duale Studium bewerben?",
+    "answer": "Interessierte bewerben sich nicht bei der HWR Berlin, sondern anhand der Partner-Datenbank auf der Website der Hochschule direkt bei den Dualen Partnern."
+  },
+  {
+    "question": "Wann sollte man sich für einen dualen Studienplatz bewerben?",
+    "answer": "Bewerben Sie sich rechtzeitig: Viele Unternehmen führen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durch."
+  },
+  {
+    "question": "Wie lautet die E-Mail Adresse der Studienberatung für Studieninteressierte?",
+    "answer": "Die E-Mail Adresse der Studienberatung lautet studienberatung.dual(at)hwr-berlin.de."
+  },
+  {
+    "question": "Gibt es Gebühren für dieses Studienprogramm?",
+    "answer": "Nein, für dieses Studienprogramm fallen keine Gebühren an, aber es gibt einen Semesterbeitrag und eventuell eine Förderung durch BAföG."
+  },
+  {
+    "question": "Welches sind einige der Partnerunternehmen der HWR Berlin für das duale Bachelorstudium?",
+    "answer": "Einige der Partnerunternehmen sind Deutsche Bahn AG, Mercedes-Benz Tech Innovation GmbH, SAP SE, Bayer AG und die Freie Universität Berlin."
+  },
+  {
+    "question": "Wie schließt das Studium an der HWR Berlin ab?",
+    "answer": "Das Studium schließt mit einer Bachelorarbeit ab, die auf der Bearbeitung einer betrieblichen Aufgabenstellung basiert."
+  },
+  {
+    "question": "Wie können Interessierte mehr Informationen oder Unterstützung zur Bewerbung für das Studium erhalten?",
+    "answer": "Interessierte können das Fachrichtungsbüro der Hochschule oder die Studienberatung per E-Mail unter studienberatung.dual(at)hwr-berlin.de kontaktieren."
+  },
+  {
+    "question": "Was sind Wahlpflichtfächer im Hauptstudium der Informatik an der HWR Berlin?",
+    "answer": "Die Wahlpflichtfächer im Hauptstudium umfassen Bereiche wie Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wo können zukünftige Studenten die Liste der Partnerunternehmen der HWR Berlin finden?",
+    "answer": "Die Liste der Partnerunternehmen kann am Ende der Seite des Studienprogramms auf der Website der Hochschule gefunden werden."
+  },
+  {
+    "question": "Welche Qualifikationen erwerben Absolventen des dualen Bachelorstudiengangs Informatik an der HWR Berlin?",
+    "answer": "Absolventen sind sowohl für Tätigkeiten in der Software-Entwicklung als auch in der Systemadministration qualifiziert."
+  },
+  {
+    "question": "Mit welchen Unternehmen arbeitet die HWR Berlin für dieses Studienprogramm zusammen?",
+    "answer": "Die Hochschule arbeitet mit einer Reihe von Organisationen zusammen, darunter große Unternehmen wie Bayer AG und Deutsche Bahn AG, öffentliche Einrichtungen wie die Freie Universität Berlin und das Bezirksamt Pankow von Berlin sowie kleinere Unternehmen und Organisationen in verschiedenen Branchen."
+  },
+  {
+    "question": "Wie können Studierende an der HWR Berlin finanzielle Unterstützung für ihre Ausbildung erhalten?",
+    "answer": "Es besteht die Möglichkeit einer Förderung durch BAföG. Es ist ratsam, sich für weitere Informationen an die Beratungsstellen der Hochschule zu wenden."
+  },
+  {
+    "question": "Welche zusätzlichen Kenntnisse erwerben die Studierenden im dualen Bachelorstudiengang Informatik an der HWR Berlin?",
+    "answer": "Abgesehen von den spezifischen Informatikkenntnissen erwerben die Studierenden auch fundiertes Wissen über juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik."
+  },
+  {
+    "question": "Was ist die Rolle der Studierenden während ihrer Projektarbeit im Studiengang Informatik?",
+    "answer": "Die Studierenden nehmen eine aktive Rolle ein, indem sie sich Schritt für Schritt an die Lösung herantasten. Sie bearbeiten praxisrelevante Problemstellungen sowohl eigenständig als auch in Teams."
+  },
+  {
+    "question": "Welche Unternehmen sind typische Arbeitgeber für Absolventen des Informatik-Studiengangs?",
+    "answer": "Typische Arbeitgeber sind Unternehmen aus der Softwarebranche, IT-Dienstleister und unternehmensinterne IT-Abteilungen."
+  },
+  {
+    "question": "Was charakterisiert den Einsatzradius von Absolventen des Informatik-Studiengangs an der HWR Berlin?",
+    "answer": "Der breite Einsatzradius generiert eine große Auswahl an Kooperationsunternehmen, die den Studierenden während des Studiums zur Seite stehen."
+  },
+  {
+    "question": "Was ist BAföG und kann es in diesem Studienprogramm genutzt werden?",
+    "answer": "BAföG steht für Bundesausbildungsförderungsgesetz und es ist ein deutsches Gesetz, das die staatliche Unterstützung für die Ausbildung von Studenten auf Hochschulniveau regelt. Es kann eventuell für diesen Studiengang in Anspruch genommen werden."
+  },
+  {
+    "question": "An wen können sich Studieninteressierte für beratende Unterstützung wenden?",
+    "answer": "Studieninteressierte können sich an die E-Mail-Adresse studienberatung.dual(at)hwr-berlin.de für beratende Unterstützung wenden."
+  },
+  {
+    "question": "Wie schließt das Studium an der HWR Berlin ab?",
+    "answer": "Das Studium schließt mit einer Bachelorarbeit ab, deren Grundlage die Bearbeitung von betrieblichen Aufgabenstellungen ist."
+  },
+  {
+    "question": "Wie sieht der Studienaufbau des dualen Bachelorstudiengangs Informatik an der HWR Berlin aus?",
+    "answer": "Im Grundstudium liegt der Schwerpunkt auf praktischen Programmierkenntnissen, Software-Engineering sowie den mathematischen, theoretischen und technischen Grundlagen der Informatik. Zusätzlich werden fachübergreifende Inhalte behandelt. Das Hauptstudium konzentriert sich auf vertiefende Informatikinhalte und Wahlpflichtfächer aus Gebieten wie Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Welche Fähigkeiten werden außer den fachlichen Kenntnissen für die erfolgreiche Projektabwicklung im Rahmen des Studiums benötigt?",
+    "answer": "Für eine erfolgreiche Projektabwicklung sind neben fachlichen Kenntnissen ein hohes Maß an Kommunikationsfähigkeit und zielorientierte Teamarbeit entscheidend."
+  },
+  {
+    "question": "Wie ist die Zusammenarbeit von Studierenden und Kooperationsunternehmen im Studium gestaltet?",
+    "answer": "Die Kooperationsunternehmen stehen den Studierenden als Partner während des Studiums zur Seite, schärfen den Blick für das Wesentliche, geben Denkanstöße, fördern Kreativität, initiieren oder regen Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Wie bewerbe ich mich bei den Dualen Partnern der HWR Berlin?",
+    "answer": "Die Bewerbung erfolgt direkt bei den Dualen Partnern über die Partner-Datenbank auf der Website der Hochschule."
+  },
+  {
+    "question": "Wie läuft das Auswahlverfahren für den dualen Studienplatz ab?",
+    "answer": "Die Dualen Partner wählen unter den Bewerberinnen und Bewerbern ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Welche Unternehmen sind Partner der HWR Berlin im dualen Bachelorstudiengang Informatik?",
+    "answer": "Zu den Partnerunternehmen gehören unter anderem ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, Freie Universität Berlin und SAP SE."
+  },
+  {
+    "question": "Gibt es eine Akkreditierung für das Informatikprogramm der HWR Berlin?",
+    "answer": "Ja, das Programm ist durch den Akkreditierungsrat akkreditiert."
+  },
+  {
+    "question": "Welche Förderungsmöglichkeiten gibt es für das Studium?",
+    "answer": "Es besteht eventuell die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Welche Arbeitsprozesse sind die Hauptaufgaben einer Informatikerin/eines Informatikers laut der Beschreibung der HWR Berlin?",
+    "answer": "Die Hauptaufgaben einer Informatikerin oder eines Informatikers sind laut HWR Berlin Analyse, Entwicklung, Integration, Wartung und Pflege von Systemen."
+  },
+  {
+    "question": "Wie bereitet die HWR Berlin ihre Informatikstudierenden auf die vielfältigen Aufgaben eines Informatikers vor?",
+    "answer": "Die Studierenden des dualen Bachelorstudiengangs Informatik werden von Anfang an in konkrete Projekte eingebunden und entwickeln so praktisches Wissen und Fähigkeiten. Sie lernen auch wichtige Soft Skills wie Kommunikationsfähigkeit und zielorientierte Teamarbeit."
+  },
+  {
+    "question": "Warum ist es wichtig, dass Informatikstudierende \"Agierende, die sich Schritt für Schritt an die Lösung herantasten\", werden?",
+    "answer": "Dies ist wichtig, weil Informatikprofis oft komplexe Probleme lösen und neue Systeme entwickeln müssen, was eine schrittweise Herangehensweise und die Bereitschaft, neue Lösungen zu erforschen und auszuprobieren, erfordert."
+  },
+  {
+    "question": "Welche Vorteile bietet das duale Studium an der HWR Berlin?",
+    "answer": "Das duale Studium bietet eine starke Verbindung zur Praxis durch die Zusammenarbeit mit Kooperationsunternehmen. Diese bereiten Studierende auf zukünftige berufliche Herausforderungen vor, indem sie den Blick für das Wesentliche schärfen, Denkanstöße geben, die Kreativität fördern und Projekte initiieren/anregen."
+  },
+  {
+    "question": "Welchen Anteil haben Software und Kommunikationstechnik in der Flugzeugentwicklung und den Innovationen im Auto?",
+    "answer": "Software und Kommunikationstechnik machen 60 Prozent der Wertschöpfung in der Flugzeugentwicklung und 90 Prozent aller Innovationen im Auto aus."
+  },
+  {
+    "question": "In welchen Fachbereichen liegt der Schwerpunkt des Hauptstudiums im Informatikstudiengang an der HWR Berlin?",
+    "answer": "Der Schwerpunkt des Hauptstudiums liegt auf vertieften Inhalten der Informatik wie Betriebssysteme, Datenbanken und Netzwerken, ergänzt durch Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie endet das Studium an der HWR Berlin?",
+    "answer": "Das Studium endet mit der Bearbeitung einer betrieblichen Aufgabenstellung im Rahmen einer Bachelorarbeit."
+  },
+  {
+    "question": "Wie können sich Interessierte für das duale Studium an der HWR Berlin bewerben?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern über die Partner-Datenbank auf der Website der Hochschule. Die Partner wählen unter den Bewerberinnen und Bewerbern ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Wie viele Studienarbeiten müssen im Hauptstudium erstellt werden?",
+    "answer": "Im Hauptstudium des Informatik-Studiengangs an der HWR Berlin werden zwei Studienarbeiten erstellt."
+  },
+  {
+    "question": "Worauf basiert die abschließende Bachelorarbeit im Informatik-Studiengang?",
+    "answer": "Die Bachelorarbeit basiert auf der Bearbeitung einer betrieblichen Aufgabenstellung."
+  },
+  {
+    "question": "Wo finden Interessierte die Partner-Datenbank zur Bewerbung für das duale Studium?",
+    "answer": "Die Partner-Datenbank zur Bewerbung befindet sich auf der Website der HWR Berlin."
+  },
+  {
+    "question": "Wann sollten sich Interessierte für das duale Studium bewerben?",
+    "answer": "Viele Unternehmen führen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durch, daher wird eine frühzeitige Bewerbung empfohlen."
+  },
+  {
+    "question": "Was ist der Semesterbeitrag und wie unterscheidet er sich von den Studiengebühren?",
+    "answer": "Der Semesterbeitrag ist eine Gebühr, die von Studierenden jedes Semester gezahlt wird und Dienstleistungen wie öffentliche Verkehrsmittel und Verwaltungskosten deckt. Es handelt sich dabei nicht um Studiengebühren, da für das Studienprogramm keine Gebühren anfallen."
+  },
+  {
+    "question": "Ist die Förderung durch BAföG für dieses Studienprogramm garantiert?",
+    "answer": "Nein, die mögliche Förderung durch BAföG ist nicht garantiert und je nach individuellen Bedingungen variabel."
+  },
+  {
+    "question": "Wo können Interessierte weitere Informationen zur Bewerbung für diesen Studiengang finden?",
+    "answer": "Weitere Informationen zur Bewerbung sind auf der Webseite der HWR Berlin unter dem Abschnitt \"Informationen zur Bewerbung für diesen Studiengang\" zu finden."
+  },
+  {
+    "question": "Welche Unternehmen sind Partnerunternehmen dieses dualen Studiengangs?",
+    "answer": "Einige Partnerunternehmen dieses dualen Studiengangs sind Deutsche Bahn AG, SAP SE, Bayer AG, Freie Universität Berlin und weitere."
+  },
+  {
+    "question": "Was sind die Hauptaufgaben einer Informatikerin oder eines Informatikers?",
+    "answer": "Die Hauptaufgaben einer Informatikerin oder eines Informatikers sind Analyse, Entwicklung, Integration, Wartung und Pflege von Computersystemen."
+  },
+  {
+    "question": "Wie werden die Studierenden des dualen Bachelorstudiengangs Informatik auf ihre Rolle vorbereitet?",
+    "answer": "Die Studierenden des dualen Bachelorstudiengangs Informatik werden von Anfang an in konkrete Projekte eingebunden und werden so zu Agierenden, die sich Schritt für Schritt an die Lösung von Problemstellungen herantasten."
+  },
+  {
+    "question": "Welche Fähigkeiten sind für eine erfolgreiche Projektabwicklung wichtig?",
+    "answer": "Für eine erfolgreiche Projektabwicklung sind neben fundierten Fachkenntnissen ein hohes Maß an Kommunikationsfähigkeit und zielorientierte Teamarbeit entscheidend."
+  },
+  {
+    "question": "In welchen Bereichen könnten Absolventinnen und Absolventen des Studiengangs arbeiten?",
+    "answer": "Die Absolventinnen und Absolventen des Studiengangs kommen vor allem in den folgenden Bereichen zum Einsatz: Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, IT-Dienstleister, und unternehmensinterne IT-Abteilungen."
+  },
+  {
+    "question": "Was sind die Inhalte des Grundstudiums im Bachelorstudiengang Informatik an der HWR Berlin?",
+    "answer": "Im Grundstudium stehen neben einer ausführlichen Praxis im Programmieren und Software-Engineering die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund."
+  },
+  {
+    "question": "Was wird im Hauptstudium des Bachelorstudiengangs Informatik an der HWR Berlin behandelt?",
+    "answer": "Im Hauptstudium geht es vor allem um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Hinzu kommen Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie schließen Studierende ihr Studium ab?",
+    "answer": "Das Studium schließt mit einer Bachelorarbeit ab, deren Grundlage die Bearbeitung einer betrieblichen Aufgabenstellung ist."
+  },
+  {
+    "question": "Wie bewerben sich Interessierte für den dualen Studiengang?",
+    "answer": "Interessierte bewerben sich nicht bei der HWR Berlin sondern anhand der Partner-Datenbank auf der Website direkt bei den Dualen Partnern. Diese wählen ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Gibt es Gebühren für diesen Studiengang?",
+    "answer": "Nein, es gibt keine Gebühren für diesen Studiengang."
+  },
+  {
+    "question": "Welche Unternehmen sind Partner der Hochschule für Wirtschaft und Recht für den dualen Bachelorstudiengang Informatik?",
+    "answer": "Unter den Partnerunternehmen sind unter anderem ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, CHECK24 GmbH Berlin, FiANTEC Provisionslösungen GmbH, Helmholtz-Zentrum Berlin für Materialien und Energie GmbH und SAP SE."
+  },
+  {
+    "question": "Wo erhält man weitere Informationen zur Bewerbung für diesen Studiengang?",
+    "answer": "Weitere Informationen zur Bewerbung erhalten Sie bei der Beratung für Studieninteressierte unter studienberatung.dual(at)hwr-berlin.de."
+  },
+  {
+    "question": "Welche Fächer sind im Hauptstudium wählbar?",
+    "answer": "Im Hauptstudium können Fächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme gewählt werden."
+  },
+  {
+    "question": "Was ist der Charakter des Studiums?",
+    "answer": "Das Studium hat einen dualen Charakter, das heißt es beinhaltet sowohl theoretische Phasen an der Hochschule als auch praktische Phasen im Unternehmen. In beiden Phasen werden betriebliche Aufgaben bearbeitet und von den Dozenten begleitet."
+  },
+  {
+    "question": "Sind die Programme dieses Studiums akkreditiert?",
+    "answer": "Ja, die Programme sind durch den Akkreditierungsrat programmakkreditiert."
+  },
+  {
+    "question": "Besteht die Möglichkeit, durch BAföG gefördert zu werden?",
+    "answer": "Ja, es besteht die Möglichkeit, durch BAföG gefördert zu werden."
+  },
+  {
+    "question": "Wo kann ich die Studiengangsinformationen herunterladen?",
+    "answer": "Die Studiengangsinformationen können von der Website der HWR Berlin heruntergeladen werden."
+  },
+  {
+    "question": "Gibt es einen Semesterbeitrag?",
+    "answer": "Der Text gibt keine Information darüber, ob es einen Semesterbeitrag gibt."
+  },
+  {
+    "question": "Werden während des Studiums Projekte bearbeitet?",
+    "answer": "Ja, während des gesamten Studiums bearbeiten die Studierenden praxisrelevante Problemstellungen, teilweise in Teams, und lösen diese mit den Methoden der Informatik. Außerdem werden im Hauptstudium größere Projekte im Rahmen von zwei Studienarbeiten bearbeitet."
+  },
+  {
+    "question": "Was sind die fachübergreifenden Inhalte des Grundstudiums?",
+    "answer": "Die fachübergreifenden Inhalte des Grundstudiums behandeln die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik."
+  },
+  {
+    "question": "Wo kommen die theoretischen und fachlichen Grundlagen der Informatik ins Spiel?",
+    "answer": "Die theoretischen und fachlichen Grundlagen der Informatik werden im Grundstudium behandelt."
+  },
+  {
+    "question": "Inwiefern sind Kommunikationsfähigkeiten für das Studium und den späteren Beruf wichtig?",
+    "answer": "Kommunikationsfähigkeiten sind wichtig, um erfolgreich mit Anwendern oder Auftraggebern zu kommunizieren und in einem Team zu arbeiten."
+  },
+  {
+    "question": "Wie ist es möglich, sich für den dualen Bachelorstudiengang zu bewerben?",
+    "answer": "Bewerbungen erfolgen direkt bei den Dualen Partnern, die auf der Partner-Datenbank auf der Website der HWR Berlin gelistet sind."
+  },
+  {
+    "question": "Werden Studierende dieses Studiengangs bezahlt?",
+    "answer": "Der Text enthält keine Informationen darüber, ob die Studierenden dieses Studiengangs bezahlt werden."
+  },
+  {
+    "question": "Wer unterstützt und begleitet die berufliche Praxis der Studierenden?",
+    "answer": "Die berufliche Praxis der Studierenden wird von den Dozenten und Dozentinnen begleitet."
+  },
+  {
+    "question": "Wann sollten sich Interessierte für das duale Studium bewerben?",
+    "answer": "Interessierte sollten sich rechtzeitig bewerben, da viele Unternehmen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durchführen."
+  },
+  {
+    "question": "Was ist die Rolle der Kooperationspartner des Studiengangs?",
+    "answer": "Die Kooperationspartner stehen den Studierenden während des Studiums zur Seite, initiieren oder regen Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Was ist die Bedeutung von Software und Kommunikationstechnik in der Flugzeugentwicklung und der Autoinnovation?",
+    "answer": "Heute entfallen bereits 60 Prozent der Wertschöpfung in der Flugzeugentwicklung auf Software und Kommunikationstechnik, während 90 Prozent aller Innovationen im Auto mit Informatik zu tun haben."
+  },
+  {
+    "question": "Was sind die Vorteile eines dualen Studiums?",
+    "answer": "Ein duales Studium bietet den Vorteil, dass Studierende von Anfang an in konkrete Projekte eingebunden werden und somit praktische Erfahrungen sammeln können, während sie gleichzeitig ihre theoretischen Kenntnisse erweitern. Außerdem besteht eine enge Zusammenarbeit mit Unternehmen, die hilft, den Blick für das Wesentliche zu schärfen und die Kreativität zu fördern."
+  },
+  {
+    "question": "Gibt es eine spezielle Zeit, in der man sich für den dualen Bachelorstudiengang bewerben sollte?",
+    "answer": "Ja, es wird empfohlen, sich rechtzeitig zu bewerben, da viele Unternehmen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durchführen."
+  },
+  {
+    "question": "Was ist der Inhalt der zwei Studienarbeiten, die im Hauptstudium bearbeitet werden?",
+    "answer": "Der Text gibt keine spezifischen Informationen zum Inhalt der zwei Studienarbeiten, die im Hauptstudium bearbeitet werden."
+  },
+  {
+    "question": "Wie wird das Studium mit einer betrieblichen Aufgabenstellung verknüpft?",
+    "answer": "Das Studium verknüpft sich mit einer betrieblichen Aufgabenstellung durch die Bachelorarbeit, die auf der Bearbeitung einer solchen Aufgabe basiert."
+  },
+  {
+    "question": "Was sind die Aufgaben der Kooperationsunternehmen im Studium?",
+    "answer": "Die Aufgaben der Kooperationsunternehmen im Studium umfassen die Bereitstellung von praxisnahen Lernumgebungen, das Schärfen des Blicks für das Wesentliche, das Geben von Denkanstößen, die Förderung von Kreativität, das Initiieren oder Anregen von Projekten und die Begleitung bei deren Umsetzung."
+  },
+  {
+    "question": "Wo arbeiten Absolventen des dualen Bachelorstudiengangs Informatik hauptsächlich?",
+    "answer": "Absolventen des dualen Bachelorstudiengangs Informatik arbeiten hauptsächlich in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, bei IT-Dienstleistern und in unternehmensinternen IT-Abteilungen."
+  },
+  {
+    "question": "Welche fachübergreifenden Inhalte werden im Grundstudium behandelt?",
+    "answer": "Im Grundstudium werden fachübergreifende Inhalte wie die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik behandelt."
+  },
+  {
+    "question": "Wie kann man die Studiengangsinfo herunterladen?",
+    "answer": "Die Studiengangsinfo kann auf der Website der HWR Berlin heruntergeladen werden."
+  },
+  {
+    "question": "Welche Rolle spielt die Zusammenarbeit in Teams während des Studiums?",
+    "answer": "Im Studium bearbeiten die Studierenden teilweise in Teams praxisrelevante Problemstellungen, was dazu beiträgt, ihre Teamarbeit- und Kommunikationsfähigkeiten zu entwickeln, welche für eine erfolgreiche Projektabwicklung entscheidend sind."
+  },
+  {
+    "question": "Wie ist der spätere Einsatzradius von Absolventinnen und Absolventen des Studiengangs?",
+    "answer": "Der spätere Einsatzradius einer Informatikerin oder eines Informatikers ist breit und bietet eine große Auswahl an Kooperationsunternehmen, die den Studierenden während des Studiums zur Seite stehen."
+  },
+  {
+    "question": "In welchen Bereichen der Informatik kann man Wahlpflichtfächer wählen?",
+    "answer": "Im Hauptstudium kann man Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme wählen."
+  },
+  {
+    "question": "Wie ist das Verhältnis von Theorie und Praxis im Studium?",
+    "answer": "Das Studium hat einen starken Praxisbezug, da die Studierenden von Anfang an in konkrete Projekte eingebunden werden, in denen sie praxisrelevante Problemstellungen bearbeiten. Theoretische Inhalte werden vor allem im Grundstudium vermittelt."
+  },
+  {
+    "question": "Welche Branchen werden von den Absolventen des Studiengangs hauptsächlich bedient?",
+    "answer": "Hauptsächlich werden die Softwarebranche und IT-Dienstleister von Absolventen des Studiengangs bedient, und sie finden auch Arbeit in internen IT-Abteilungen verschiedener Unternehmen."
+  },
+  {
+    "question": "Was sind die Hauptthemen im Hauptstudium des Studiengangs?",
+    "answer": "Im Hauptstudium geht es vor allem um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke."
+  },
+  {
+    "question": "Wie verläuft das Auswahlverfahren der Dualen Partner?",
+    "answer": "Die Dualen Partner wählen unter den Bewerberinnen und Bewerbern ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Wie können Studenten eine Förderung durch BAföG erhalten?",
+    "answer": "Der Text gibt keine spezifischen Informationen darüber, wie Studierende eine Förderung durch BAföG erhalten können."
+  },
+  {
+    "question": "Wie können Interessierte die Studiengangsinfo herunterladen?",
+    "answer": "Interessierte können die Studiengangsinfo von der Website der Hochschule für Wirtschaft und Recht Berlin herunterladen."
+  },
+  {
+    "question": "Wann und an welchem Ort erfolgt die Bearbeitung von Aufgaben während des Studiums?",
+    "answer": "Die Aufgaben werden während des gesamten Studiums bearbeitet, sowohl in der Hochschule als auch in den beteiligten Unternehmen. Dabei werden betriebliche Aufgaben von den Dozenten und Dozentinnen begleitet."
+  },
+  {
+    "question": "Was ist das Besondere an den betrieblichen Aufgaben, die während des Studiums bearbeitet werden?",
+    "answer": "Die betrieblichen Aufgaben erlauben es den Studierenden, praxisrelevante Problemstellungen zu bearbeiten, was einen starken Bezug zur Praxis herstellt und gleichzeitig den Studierenden erlaubt, ihre theoretischen Kenntnisse anzuwenden und zu erweitern."
+  },
+  {
+    "question": "Mit welchen Qualifikationen schließen Absolventen dieses Studiengangs ab?",
+    "answer": "Die Absolventen des dualen Bachelorstudiengangs Informatik sind qualifiziert für Tätigkeiten in der Software-Entwicklung und in der Systemadministration."
+  },
+  {
+    "question": "Was sind Beispiele von Unternehmen, die als duale Partner agieren?",
+    "answer": "Beispiele von Unternehmen, die als duale Partner agieren, sind ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG und SAP SE."
+  },
+  {
+    "question": "Was ist das Besondere an der Projektarbeit in diesem Studiengang?",
+    "answer": "In diesem Studiengang werden die Studierenden von Anfang an in konkrete Projekte eingebunden, um Praxiserfahrung zu sammeln und Lösungsstrategien zu entwickeln."
+  },
+  {
+    "question": "Wie kann man sich über die dualen Partner dieses Studiengangs informieren?",
+    "answer": "Eine Liste der dualen Partner ist auf der Webseite der Hochschule für Wirtschaft und Recht Berlin zu finden."
+  },
+  {
+    "question": "Wie wird das Fachwissen in diesem Studiengang vermittelt?",
+    "answer": "Das Fachwissen wird durch eine Kombination aus praxisorientierten Projekten und theoretischen Inhalten im Rahmen von Vorlesungen und Seminaren vermittelt."
+  },
+  {
+    "question": "Was ist das Ziel der Kooperation mit den Partnerunternehmen?",
+    "answer": "Das Ziel der Kooperation mit den Partnerunternehmen ist es, den Studierenden praxisnahe Lernerfahrungen zu ermöglichen und sie auf zukünftige berufliche Herausforderungen vorzubereiten."
+  },
+  {
+    "question": "Wie kann man sich für eine Förderung durch BAföG bewerben?",
+    "answer": "Der Text enthält keine Informationen darüber, wie man sich für eine Förderung durch BAföG bewerben kann."
+  },
+  {
+    "question": "Welchen Anteil hat die Softwareentwicklung in der Wertschöpfung von Flugzeugen und Autos?",
+    "answer": "In der Flugzeugentwicklung entfallen bereits 60 Prozent der Wertschöpfung auf Software und Kommunikationstechnik. Bei den Autos haben 90 Prozent aller Innovationen mit Informatik zu tun."
+  },
+  {
+    "question": "Wie können Interessierte ihre Fragen zum Studiengang klären?",
+    "answer": "Interessierte können ihre Fragen zur Studiengangsbewerbung unter studienberatung.dual(at)hwr-berlin.de klären."
+  },
+  {
+    "question": "Wie wird die interdisziplinäre Relevanz der Informatik im Studium behandelt?",
+    "answer": "Die interdisziplinäre Relevanz der Informatik wird im Grundstudium durch die Behandlung von juristischen, soziologischen und betriebswirtschaftlichen Aspekten der Informatik hervorgehoben."
+  },
+  {
+    "question": "Was ist der Vorteil des dualen Charakters des Studiums?",
+    "answer": "Der duale Charakter des Studiums ermöglicht es den Studierenden, theoretische Kenntnisse unmittelbar in der Praxis anzuwenden und umgekehrt, wodurch ein kontinuierlicher Lernprozess und ein hoher Praxisbezug gewährleistet wird."
+  },
+  {
+    "question": "Wie sieht der Studienaufbau im dualen Bachelorstudiengang Informatik aus?",
+    "answer": "Der Studienaufbau beginnt mit dem Grundstudium, in dem die grundlegenden Fachkenntnisse und praktischen Fähigkeiten vermittelt werden. Im Hauptstudium erfolgt eine Vertiefung in bestimmten Bereichen der Informatik, und es werden größere Projekte im Rahmen von zwei Studienarbeiten bearbeitet. Das Studium endet mit der Bachelorarbeit."
+  },
+  {
+    "question": "Was kennzeichnet den dualen Charakter des Studiengangs?",
+    "answer": "Der duale Charakter des Studiengangs bezeichnet die Kombination aus Theoriephasen an der Hochschule und Praxisphasen in einem der Kooperationsunternehmen."
+  },
+  {
+    "question": "In welchen Bereichen der Informatik liegen die Schwerpunkte des Hauptstudiums?",
+    "answer": "Die Schwerpunkte des Hauptstudiums liegen in Betriebssystemen, Datenbanken und Netzwerken sowie in den Wahlpflichtfächern aus den Gebieten Grafik/Multimedia, künstliche Intelligenz und mobile Systeme."
+  },
+  {
+    "question": "In welchen Bereichen kann Informatik hauptsächlich eingesetzt werden?",
+    "answer": "Informatik kann hauptsächlich in der Softwareentwicklung und Systemadministration eingesetzt werden. Sie spielt auch eine wesentliche Rolle in der Flugzeugentwicklung und Autoinnovation."
+  },
+  {
+    "question": "Wie läuft das Akkreditierungsverfahren für den Studiengang ab?",
+    "answer": "Das Akkreditierungsverfahren für den Studiengang wird durch den Akkreditierungsrat durchgeführt."
+  },
+  {
+    "question": "Was ist das besondere an der Partnerschaft zwischen der Hochschule und Kooperationsunternehmen?",
+    "answer": "Diese Partnerschaft ermöglicht es den Studierenden, während ihres Studiums praktische Erfahrungen in verschiedenen Kooperationsunternehmen zu sammeln. Diese Unternehmen initiieren oder regen Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Wie können sich Interessierte für den Studiengang bewerben?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern über die Partner-Datenbank auf der Website der HWR Berlin."
+  },
+  {
+    "question": "Was ist die Basis für die Bachelorarbeit?",
+    "answer": "Die Basis für die Bachelorarbeit ist die Bearbeitung einer betrieblichen Aufgabenstellung."
+  },
+  {
+    "question": "Welche Finanzierungsmöglichkeiten bietet der Studiengang an?",
+    "answer": "Potenzielle Finanzierungsmöglichkeiten könnten durch BAföG bereitgestellt werden, wobei der Text dies nicht explizit bestätigt."
+  },
+  {
+    "question": "An wen können sich Studieninteressierte für Beratung und weitere Informationen wenden?",
+    "answer": "Studieninteressierte können sich unter der angegebenen E-Mail-Adresse studienberatung.dual(at)hwr-berlin.de an die Beratung für Studieninteressierte wenden."
+  },
+  {
+    "question": "Wie ist das Verhältnis von Praxis und Theorie im Grundstudium des Studiengangs?",
+    "answer": "Im Grundstudium erhalten die Studierenden eine ausführliche Praxis im Programmieren und Software-Engineering, während sie gleichzeitig die mathematischen, theoretischen und technischen Grundlagen der Informatik erlernen."
+  },
+  {
+    "question": "Wie werden Anwender und Auftraggeber in die Projektarbeit eingebunden?",
+    "answer": "Die Einbindung von Anwendern und Auftraggebern erfolgt über Kommunikation und zielorientierte Teamarbeit, was für eine erfolgreiche Projektabwicklung entscheidend ist."
+  },
+  {
+    "question": "Welche Rolle spielt Kreativität im dualen Bachelorstudiengang Informatik?",
+    "answer": "Kreativität wird von den Kooperationsunternehmen gefördert und spielt eine wichtige Rolle bei der Generierung von Problemlösungen und der erfolgreichen Durchführung von Projekten."
+  },
+  {
+    "question": "Welche Fähigkeiten und Kenntnisse werden im Hauptstudium des Studiengangs vertieft?",
+    "answer": "Im Hauptstudium wird der Fokus auf vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke gelegt. Zudem können die Studierenden aus Wahlpflichtfächern in den Bereichen Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme wählen."
+  },
+  {
+    "question": "Warum ist es wichtig, sich frühzeitig für den dualen Bachelorstudiengang Informatik zu bewerben?",
+    "answer": "Eine frühzeitige Bewerbung ist wichtig, da viele Unternehmen ihre Auswahlverfahren für dual Studierende über ein Jahr vor dem Studienbeginn durchführen."
+  },
+  {
+    "question": "Wo kann man den Semesterbeitrag einsehen?",
+    "answer": "Der Text gibt keine Informationen darüber, wo der Semesterbeitrag einzusehen ist."
+  },
+  {
+    "question": "Was sind die Vorteile einer Zusammenarbeit mit Kooperationsunternehmen für die Studierenden?",
+    "answer": "Die Zusammenarbeit mit Kooperationsunternehmen ermöglicht es den Studierenden, praktische Erfahrungen zu sammeln, ihre Sicht auf das Wesentliche zu schärfen, K"
+  },
+  {
+    "question": "Was sind die Hauptaufgaben eines Informatikers?",
+    "answer": "Die Hauptaufgaben eines Informatikers sind die Analyse, Entwicklung, Integration, Wartung und Pflege von Informatiksystemen."
+  },
+  {
+    "question": "Wie werden Studierende in das duale Bachelorstudium Informatik eingeführt?",
+    "answer": "Die Studierenden des dualen Bachelorstudiums Informatik werden von Anfang an in konkrete Projekte eingebunden."
+  },
+  {
+    "question": "Was ist für eine erfolgreiche Projektabwicklung neben fundierten Fachkenntnissen entscheidend?",
+    "answer": "Für eine erfolgreiche Projektabwicklung ist ein hohes Maß an Kommunikationsfähigkeit mit dem Anwender bzw. Auftraggeber und zielorientierte Teamarbeit entscheidend."
+  },
+  {
+    "question": "Wie bereiten Kooperationsunternehmen die duale Bachelorstudenten auf zukünftige berufliche Herausforderungen vor?",
+    "answer": "Die Kooperationsunternehmen stehen den Studierenden als Partner während des Studiums zur Seite, schärfen den Blick für das Wesentliche, geben Denkanstöße, fördern Kreativität, initiieren Projekte und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Wofür qualifiziert das duale Bachelorstudium?",
+    "answer": "Das duale Bachelorstudium qualifiziert für Tätigkeiten in der Software-Entwicklung und in der Systemadministration."
+  },
+  {
+    "question": "Welche Inhalte stehen im Grundstudium des dualen Bachelorstudiengangs Informatik im Vordergrund?",
+    "answer": "Im Grundstudium stehen neben einer ausführlichen Praxis im Programmieren und Software-Engineering die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund."
+  },
+  {
+    "question": "Welche Inhalte werden im Hauptstudium des dualen Bachelorstudiengangs Informatik behandelt?",
+    "answer": "Im Hauptstudium geht es vor allem um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Dazu kommen Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie schließt das duale Bachelorstudium Informatik ab?",
+    "answer": "Das Studium schließt mit einer Bachelorarbeit ab, deren Grundlage die Bearbeitung einer betrieblichen Aufgabenstellung ist."
+  },
+  {
+    "question": "Wie bewirbt man sich für das duale Bachelorstudium Informatik?",
+    "answer": "Interessierte bewerben sich nicht bei der HWR Berlin sondern direkt bei den Dualen Partnern, die unter den Bewerberinnen und Bewerbern ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Wie wird das Studium finanziert?",
+    "answer": "Es werden keine Gebühren erhoben, es gibt einen Semesterbeitrag und möglicherweise eine Förderung durch BAföG."
+  },
+  {
+    "question": "Wer sind einige der Partnerunternehmen für das duale Bachelorstudium Informatik?",
+    "answer": "Einige der Partnerunternehmen sind ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, Flughafen Berlin-Brandenburg GmbH und die Kassenärztliche Bundesvereinigung Dezernat Digitalisierung und IT."
+  },
+  {
+    "question": "Welche Schlüsselbereiche der Gesellschaft sind von der Arbeit eines Informatikers abhängig?",
+    "answer": "Die Arbeit eines Informatikers ist entscheidend für das Funktionieren nahezu aller Bereiche des privaten, gesellschaftlichen und beruflichen Lebens."
+  },
+  {
+    "question": "Wie fördert das duale Bachelorstudium Informatik die Entwicklung von Projektmanagementfähigkeiten?",
+    "answer": "Die Studierenden werden von Anfang an in konkrete Projekte eingebunden und agieren schrittweise bei der Lösungsfindung. Sie arbeiten auch oft in Teams und bearbeiten praxisrelevante Problemstellungen."
+  },
+  {
+    "question": "Wie hängen Informatik und Innovation in der Automobilindustrie zusammen?",
+    "answer": "90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+  },
+  {
+    "question": "Welche weiteren beruflichen Bereiche können Absolventen des Studiengangs betreten?",
+    "answer": "Absolventen können in verschiedenen Bereichen arbeiten, einschließlich Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, IT-Dienstleister, und unternehmensinterne IT-Abteilungen."
+  },
+  {
+    "question": "Was sind die fachübergreifenden Inhalte des Bachelorstudiengangs Informatik?",
+    "answer": "Fachübergreifende Inhalte des Studiums beinhalten die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik."
+  },
+  {
+    "question": "Welches sind die Wahlpflichtfächer im Hauptstudium des Bachelorstudiengangs Informatik?",
+    "answer": "Die Wahlpflichtfächer kommen aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie und wann sollte man sich für das duale Bachelorstudium Informatik bewerben?",
+    "answer": "Man sollte sich direkt bei den Dualen Partnern bewerben und dies über ein Jahr vor Studienbeginn tun, da viele Unternehmen die Auswahlverfahren für dual Studierende zu diesem Zeitpunkt durchführen."
+  },
+  {
+    "question": "Gibt es Studiengebühren für das duale Bachelorstudium Informatik?",
+    "answer": "Nein, es fallen keine Studiengebühren an. Es gibt allerdings einen Semesterbeitrag."
+  },
+  {
+    "question": "Was ist der Akkreditierungsrat?",
+    "answer": "Der Akkreditierungsrat ist eine Institution, die die Qualität von Studiengängen durch eine formelle Bewertung sicherstellt. Der duale Bachelorstudiengang Informatik an der HWR Berlin ist durch den Akkreditierungsrat akkreditiert."
+  },
+  {
+    "question": "Was sind einige der Partnerunternehmen für das duale Studium in Zusammenhang mit Mobile Systemen und Artificial Intelligence?",
+    "answer": "Obwohl nicht spezifisch für diese Bereiche genannt, gehören zu den Partnerunternehmen unter anderem die Deutsche Bahn AG, ALSTOM Transportation Germany GmbH und die Bayer AG, die möglicherweise in diesen Bereichen tätig sind."
+  },
+  {
+    "question": "Welchen Anteil haben Software und Kommunikationstechnik an der Wertschöpfung in der Flugzeugentwicklung?",
+    "answer": "Heute entfallen bereits 60 Prozent der Wertschöpfung in der Flugzeugentwicklung auf Software und Kommunikationstechnik."
+  },
+  {
+    "question": "Was sind die Vorteile der Partnerschaft mit Unternehmen während des Studiums?",
+    "answer": "Die Partnerschaft mit Unternehmen bietet den Studierenden den Blick für das Wesentliche, gibt Denkanstöße, fördert Kreativität, initiiert (gemeinsame) Projekte und begleitet deren Umsetzung. Dies bereitet sie optimal auf zukünftige berufliche Herausforderungen vor."
+  },
+  {
+    "question": "Welche Themen werden in den zwei Studienarbeiten behandelt, die im Hauptstudium bearbeitet werden?",
+    "answer": "Der Text spezifiziert nicht die genauen Themen der Studienarbeiten, jedoch sollten sie relevante Themen aus dem Hauptstudium abdecken, das Betriebssysteme, Datenbanken, Netzwerke und Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme umfasst."
+  },
+  {
+    "question": "Wie ist das Bewerbungsverfahren für das duale Bachelorstudium Informatik strukturiert?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern. Diese wählen ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Gibt es finanzielle Unterstützung für das duale Bachelorstudium Informatik?",
+    "answer": "Es gibt die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Wer ist der Kontakt für Studieninteressierte?",
+    "answer": "Der Kontakt für Studieninteressierte ist studienberatung.dual(at)hwr-berlin.de."
+  },
+  {
+    "question": "Was für eine Rolle spielt Datenschutz im Studiengang?",
+    "answer": "Der Text gibt keine spezifischen Informationen zum Thema Datenschutz im Studiengang."
+  },
+  {
+    "question": "Welche Unternehmen sind als Partner der HWR Berlin im Bereich Informatik aufgeführt?",
+    "answer": "Es gibt eine lange Liste von Partnerunternehmen dazu gehören unter anderem Ambit Berlin GmbH, Deutsche Bahn AG, Freie Universität Berlin und viele mehr."
+  },
+  {
+    "question": "Wo findet das Studium statt?",
+    "answer": "Das Studium findet an der Hochschule für Wirtschaft und Recht Berlin statt."
+  },
+  {
+    "question": "Wie heißt der Abschluss, den man nach erfolgreichem Abschluss des Studiums erhält?",
+    "answer": "Nach erfolgreichem Abschluss des Studiums erhält man den Titel Bachelor."
+  },
+  {
+    "question": "In welchen industriellen Bereichen finden Informatik-Absolventen hauptsächlich Arbeit?",
+    "answer": "Informatik-Absolventen finden hauptsächlich Arbeit in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, bei IT-Dienstleistern und in unternehmensinternen IT-Abteilungen."
+  },
+  {
+    "question": "Was ist die Grundlage für die Bachelorarbeit im Studium der Informatik?",
+    "answer": "Die Grundlage für die Bachelorarbeit im Studium der Informatik ist die Bearbeitung einer betrieblichen Aufgabenstellung."
+  },
+  {
+    "question": "Welche Schlüsseleigenschaften sollten Studierende für eine erfolgreiche Projektabwicklung entwickeln?",
+    "answer": "Neben fundierten Fachkenntnissen sollten die Studierenden ein hohes Maß an Kommunikationsfähigkeit und die Fähigkeit zur zielorientierten Teamarbeit entwickeln."
+  },
+  {
+    "question": "Was sind die wesentlichen Bestandteile des Hauptstudiums im dualen Bachelorstudiengang Informatik?",
+    "answer": "Im Hauptstudium liegt der Fokus auf vertieften Inhalten der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Hinzu kommen Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie sieht das Bewerbungsverfahren zur Aufnahme in das duale Bachelorstudium Informatik aus?",
+    "answer": "Bewerberinnen und Bewerber bewerben sich direkt bei den dualen Partnern der Hochschule, die ihre zukünftigen Studierenden auswählen und mit ihnen einen Studienvertrag abschließen."
+  },
+  {
+    "question": "Welche finanziellen Aspekte sollten berücksichtigt werden, wenn man sich für das duale Bachelorstudium Informatik entscheidet?",
+    "answer": "Es fallen keine Gebühren an, jedoch wird ein Semesterbeitrag erhoben. Darüber hinaus besteht möglicherweise die Möglichkeit, eine Förderung durch BAföG zu erhalten."
+  },
+  {
+    "question": "Was bietet die Partner-Datenbank auf der Website der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Die Partner-Datenbank auf der Website der HWR Berlin bietet eine Übersicht über die dualen Partner, bei denen sich Interessierte bewerben können, um Teil des dualen Bachelorstudiengangs Informatik zu werden."
+  },
+  {
+    "question": "Welchen formellen Status hat das Studienprogramm Informatik?",
+    "answer": "Das Studienprogramm ist durch den Akkreditierungsrat programmakreditiert."
+  },
+  {
+    "question": "Wie viel Zeit sollte man für die Bewerbung für das duale Studium einplanen?",
+    "answer": "Viele Unternehmen führen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durch, daher sollte man die Bewerbung rechtzeitig einreichen."
+  },
+  {
+    "question": "Welche Unternehmen sind einige der Partnerunternehmen der Hochschule für Wirtschaft und Recht Berlin im Bereich Informatik?",
+    "answer": "Einige der Partnerunternehmen sind ALSTOM Transportation Germany GmbH, Ambit Berlin GmbH, Bayer AG, BD24 Berlin Direkt Versicherung AG und die Berliner Stadtreinigung (BSR)."
+  },
+  {
+    "question": "Welche zusätzlichen Fähigkeiten neben Fachkenntnissen sind entscheidend für die erfolgreiche Abwicklung von Projekten im Informatikstudium?",
+    "answer": "Kommunikationsfähigkeiten und die Fähigkeit zur zielorientierten Teamarbeit sind entscheidend für die erfolgreiche Abwicklung von Projekten."
+  },
+  {
+    "question": "Welche betrieblichen Aufgaben sind Teil des dualen Studiums Informatik?",
+    "answer": "Der Text spezifiziert nicht die genauen betrieblichen Aufgaben, die Teil des dualen Studiums sind, deutet aber an, dass sie in Zusammenhang mit dem Lösen praxisrelevanter Problemstellungen mit den Methoden der Informatik stehen."
+  },
+  {
+    "question": "In welchem Bereich haben 90 Prozent aller Innovationen mit Informatik zu tun?",
+    "answer": "90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+  },
+  {
+    "question": "Was beinhaltet das Grundstudium im dualen Bachelorstudiengang Informatik?",
+    "answer": "Im Grundstudium stehen eine ausführliche Praxis im Programmieren und Software-Engineering sowie die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund."
+  },
+  {
+    "question": "Wie sind die Studieninhalte im Hauptstudium des dualen Bachelorstudiengangs Informatik aufgeteilt?",
+    "answer": "Im Hauptstudium geht es um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Zusätzlich gibt es Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie endet das duale Bachelorstudium Informatik?",
+    "answer": "Das duale Bachelorstudium Informatik endet mit einer betrieblich basierten Bachelorarbeit."
+  },
+  {
+    "question": "Wie bewerben sich Interessierte für das duale Bachelorstudium Informatik?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern der Hochschule, die dann ihre zukünftigen Studierenden auswählen und mit ihnen einen Studienvertrag abschließen."
+  },
+  {
+    "question": "Wie fällt die Finanzierung für das duale Bachelorstudium Informatik aus?",
+    "answer": "Während es keine Gebühren für das Studium gibt, besteht ein Semesterbeitrag und eine mögliche Förderung durch BAföG."
+  },
+  {
+    "question": "Wer sind einige der Partnerunternehmen, die bei dem dualen Bachelorstudium Informatik kooperieren?",
+    "answer": "Einige der Partnerunternehmen sind ALSTOM Transportation Germany GmbH, Ambit Berlin GmbH, Bayer AG, BD24 Berlin Direkt Versicherung AG und viele mehr."
+  },
+  {
+    "question": "Was sind die zentralen Inhalte des Grundstudiums im dualen Bachelorstudiengang Informatik?",
+    "answer": "Im Grundstudium stehen Programmierpraxis und Software-Engineering sowie die mathematischen, theoretischen und technischen Grundlagen der Informatik im Fokus. Zudem werden auch juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik behandelt."
+  },
+  {
+    "question": "Welche Aspekte der Informatik werden im Hauptstudium vertieft behandelt?",
+    "answer": "Im Hauptstudium werden vor allem Inhalte wie Betriebssysteme, Datenbanken und Netzwerke vertieft behandelt."
+  },
+  {
+    "question": "Womit befassen sich die Wahlpflichtfächer im Hauptstudium?",
+    "answer": "Die Wahlpflichtfächer kommen aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Worauf basiert die Bachelorarbeit im dualen Bachelorstudiengang Informatik?",
+    "answer": "Die Bachelorarbeit basiert auf der Bearbeitung einer betrieblichen Aufgabenstellung."
+  },
+  {
+    "question": "An wen bewerben sich Interessenten für das duale Bachelorstudium Informatik?",
+    "answer": "Interessenten bewerben sich direkt bei den dualen Partnern der Hochschule, die auf der Website der Hochschule gelistet sind."
+  },
+  {
+    "question": "Welche Rolle spielen die Partnerunternehmen im dualen Bachelorstudiengang Informatik?",
+    "answer": "Die Partnerunternehmen wählen ihre zukünftigen Studierenden aus, schließen mit ihnen einen Studienvertrag ab und begleiten die Studierenden während ihres Studiums."
+  },
+  {
+    "question": "Welche Förderungsmöglichkeit gibt es für das duale Bachelorstudium Informatik?",
+    "answer": "Es besteht die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Wo sind die Kooperationspartner des dualen Bachelorstudiengangs Informatik aufgeführt?",
+    "answer": "Die Kooperationspartner sind am Ende der Seite der Hochschule für Wirtschaft und Recht Berlin dargestellt."
+  },
+  {
+    "question": "Welche Unternehmen sind Partnerunternehmen des dualen Bachelorstudiengangs Informatik?",
+    "answer": "Zu den Partnerunternehmen gehören unter anderem ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, Flughafen Berlin-Brandenburg GmbH und die Kassenärztliche Bundesvereinigung Dezernat Digitalisierung und IT."
+  },
+  {
+    "question": "Welche Branchen setzen auf Informatik-Innovationen?",
+    "answer": "Insbesondere in der Flugzeugentwicklung und im Automobilbereich spielen Informatik-Innovationen eine entscheidende Rolle."
+  },
+  {
+    "question": "Wie sieht das Grundstudium im dualen Bachelorstudiengang Informatik aus?",
+    "answer": "Das Grundstudium beinhaltet neben einer ausführlichen Praxis im Programmieren und Software-Engineering auch die mathematischen, theoretischen und technischen Grundlagen der Informatik. Es behandelt außerdem fachübergreifende Inhalte wie die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik."
+  },
+  {
+    "question": "Welche speziellen Inhalte werden im Hauptstudium des dualen Bachelorstudiengangs Informatik behandelt und welche Wahlmöglichkeiten haben Studierende?",
+    "answer": "Im Hauptstudium werden vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke behandelt. Hinzu kommen Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Was ist die Funktion von Studienarbeiten im Studium?",
+    "answer": "Studienarbeiten sind größere Projekte, die im Rahmen des Studiums bearbeitet werden. Sie sind eine Möglichkeit, das im Studium erlernte Wissen anzuwenden und zu vertiefen."
+  },
+  {
+    "question": "Wie ist der Bewerbungsprozess für das duale Bachelorstudium Informatik?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern, welche unter den Bewerbern ihre zukünftigen Studierenden auswählen und mit ihnen einen Studienvertrag abschließen."
+  },
+  {
+    "question": "Sind Gebühren mit dem dualen Bachelorstudium Informatik verbunden?",
+    "answer": "Es sind keine Gebühren mit dem Studium verbunden, abgesehen von einem Semesterbeitrag. Es besteht außerdem die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Gibt es eine Beratung für Studieninteressierte?",
+    "answer": "Ja, Beratung für Studieninteressierte kann über die E-Mail-Adresse studienberatung.dual(at)hwr-berlin.de erreicht werden."
+  },
+  {
+    "question": "Unterscheiden sich die Partnerunternehmen des Studiengangs je nach Fachgebiet?",
+    "answer": "Der Text gibt keine spezifische Information darüber, ob sich die Partnerunternehmen je nach Fachgebiet unterscheiden. Es wird jedoch eine breite Palette von Partnerunternehmen aufgeführt, darunter ALSTOM Transportation Germany GmbH, Bayer AG und die Deutsche Bahn AG."
+  },
+  {
+    "question": "Welche Rolle spielen Informatik-Innovationen in der Automobil- und Flugzeugindustrie?",
+    "answer": "In der Flugzeugentwicklung entfallen bereits 60 Prozent der Wertschöpfung auf Software und Kommunikationstechnik. Bei Automobilen haben 90 Prozent aller Innovationen mit Informatik zu tun."
+  },
+  {
+    "question": "Welche Rolle spielen die Studierenden in den Projekten während des dualen Bachelorstudiengangs Informatik?",
+    "answer": "Die Studierenden werden von Anfang an in konkrete Projekte eingebunden und agieren schrittweise bei der Lösungsfindung. Sie gehören also zu den aktiven Teilnehmern, die sich an die Lösung herantasten."
+  },
+  {
+    "question": "Wie bereitet der duale Bachelorstudiengang Informatik die Studierenden auf zukünftige berufliche Herausforderungen vor?",
+    "answer": "Der Bachelorstudiengang bereitet die Studierenden vor, indem er sie in konkrete Projekte einbindet und ihnen die Möglichkeit gibt, mit verschiedensten Kooperationsunternehmen zusammenzuarbeiten."
+  },
+  {
+    "question": "Was sind einige der Aufgaben einer Informatikerin oder eines Informatikers?",
+    "answer": "Die Aufgaben einer Informatikerin oder eines Informatikers beinhalten die Analyse, Entwicklung, Integration, Wartung und Pflege von Informatiksystemen."
+  },
+  {
+    "question": "Wie sind die Studierenden des dualen Bachelorstudiengangs Informatik in den Lernprozess eingebunden?",
+    "answer": "Die Studierenden des dualen Bachelorstudiengangs Informatik sind von Anfang an in konkrete Projekte eingebunden."
+  },
+  {
+    "question": "Was sind wesentliche Fähigkeiten für eine erfolgreiche Projektabwicklung im Bereich der Informatik?",
+    "answer": "Für eine erfolgreiche Projektabwicklung sind neben fundierten Fachkenntnissen ein hohes Maß an Kommunikationsfähigkeit und die zielorientierte Teamarbeit entscheidend."
+  },
+  {
+    "question": "Wie unterstützen Kooperationsunternehmen die Studierenden während des Studiums?",
+    "answer": "Kooperationsunternehmen stehen den Studierenden als Partner während des Studiums zur Seite, sie schärfen den Blick für das Wesentliche, geben Denkanstöße, fördern Kreativität, initiieren oder regen Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Welche Berufsfelder qualifiziert das duale Bachelorstudium in Informatik?",
+    "answer": "Das duale Bachelorstudium qualifiziert für Tätigkeiten in der Software-Entwicklung und der Systemadministration. Konkret können Absolventen in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, bei IT-Dienstleistern oder in unternehmensinternen IT-Abteilungen arbeiten."
+  },
+  {
+    "question": "Welche Inhalte werden im Grundstudium des Informatikstudiengangs behandelt?",
+    "answer": "Im Grundstudium stehen neben einer ausführlichen Praxis im Programmieren und Software-Engineering die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund. Ebenfalls behandelt werden fachübergreifende Inhalte wie die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik."
+  },
+  {
+    "question": "Welche Inhalte werden im Hauptstudium des Informatikstudiengangs behandelt?",
+    "answer": "Im Hauptstudium geht es vor allem um vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Hinzu kommen Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie endet das Informatikstudium?",
+    "answer": "Das Studium schließt mit einer Bachelorarbeit ab, deren Grundlage die Bearbeitung einer betrieblichen Aufgabenstellung ist."
+  },
+  {
+    "question": "Wo bewerben sich Interessierte für ein duales Studium in Informatik?",
+    "answer": "Interessierte an einem dualen Studium bewerben sich nicht bei der HWR Berlin sondern direkt bei den Dualen Partnern, die in einer Datenbank auf der Website der Hochschule gelistet sind."
+  },
+  {
+    "question": "Wann sollten sich Interessierte für ein duales Studium in der Informatik bewerben?",
+    "answer": "Viele Unternehmen führen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durch, daher ist es empfehlenswert, sich rechtzeitig zu bewerben."
+  },
+  {
+    "question": "Gibt es Studiengebühren für das duale Studium in der Informatik an der HWR Berlin?",
+    "answer": "Nein, es fallen keine Studiengebühren an, lediglich ein Semesterbeitrag."
+  },
+  {
+    "question": "Welche Unternehmen sind Partner der HWR Berlin für das duale Studium in Informatik?",
+    "answer": "Einige der Partnerunternehmen sind z.B. ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, SAP SE, United Internet AG und viele mehr."
+  },
+  {
+    "question": "Was sind die Hauptziele des dualen Bachelorstudiengangs Informatik an der HWR Berlin?",
+    "answer": "Die Hauptziele des dualen Bachelorstudiengangs Informatik bestehen darin, die Studierenden in konkreten Projekten zu beteiligen, ihre Kommunikationsfähigkeit, Teamarbeit und Fachkenntnisse zu fördern und sie auf zukünftige berufliche Herausforderungen vorzubereiten."
+  },
+  {
+    "question": "Wie wirkt sich das duale Bachelorstudium auf die Berufsaussichten in der Informatik aus?",
+    "answer": "Das duale Bachelorstudium qualifiziert die Studierenden für Tätigkeiten in der Softwareentwicklung und der Systemadministration, wodurch sie in verschiedene Bereiche wie Entwicklungsabteilungen von Softwareunternehmen, IT-Dienstleister und unternehmensinterne IT-Abteilungen einsteigen können."
+  },
+  {
+    "question": "Welche Rolle spielen die Partnerunternehmen im dualen Studium der Informatik an der HWR Berlin?",
+    "answer": "Die Partnerunternehmen spielen eine entscheidende Rolle, indem sie den Studierenden während des Studiums zur Seite stehen, ihnen dabei helfen, das Wesentliche zu fokussieren, Denkanstöße geben, ihre Kreativität fördern, Projekte initiieren/anregen und die Umsetzung begleiten."
+  },
+  {
+    "question": "In welchen speziellen Bereichen können die Studierenden Wahlpflichtfächer wählen?",
+    "answer": "Die Studierenden können Wahlpflichtfächer aus den Bereichen Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme wählen."
+  },
+  {
+    "question": "Wie bewerbe ich mich für das duale Studium in Informatik an der HWR Berlin?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern der HWR Berlin, welche in einer Partner-Datenbank auf der Website der Hochschule zu finden sind."
+  },
+  {
+    "question": "Gibt es finanzielle Unterstützungsmöglichkeiten für das Studium an der HWR Berlin?",
+    "answer": "Ja, es gibt die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Welchen Abschluss erhält man nach Abschluss des dualen Bachelorstudiengangs Informatik an der HWR Berlin?",
+    "answer": "Nach Abschluss des Studiums erhält man den Bachelor-Abschluss."
+  },
+  {
+    "question": "Wie stark sind Software und Kommunikationstechnik in der Flugzeugentwicklung involviert?",
+    "answer": "Heute entfallen bereits 60 Prozent der Wertschöpfung in der Flugzeugentwicklung auf Software und Kommunikationstechnik."
+  },
+  {
+    "question": "Wie stark ist Informatik im Autoinnovationsbereich beteiligt?",
+    "answer": "90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+  },
+  {
+    "question": "Womit beschäftigen sich die Studierenden während des gesamten Studiums an der HWR Berlin?",
+    "answer": "Während des gesamten Studiums bearbeiten die Studierenden, teilweise in Teams, selbstständig praxisrelevante Problemstellungen, um sie mit den Methoden der Informatik zu lösen. Sie übernehmen auch Aufgaben im Unternehmen, die von den Dozentinnen und Dozenten begleitet werden."
+  },
+  {
+    "question": "Was ist das Ergebnis der beiden Studienarbeiten, die im Hauptstudium bearbeitet werden?",
+    "answer": "Die Studierenden bearbeiten größere Projekte im Rahmen von zwei Studienarbeiten, die ihnen helfen, praxisrelevante Probleme mit den Methoden der Informatik zu lösen."
+  },
+  {
+    "question": "Wer wählt die zukünftigen dual Studierenden aus und schließt mit ihnen den Studienvertrag ab?",
+    "answer": "Die Dualen Partner, bei denen sich die Studierenden bewerben, wählen ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Gibt es eine Akkreditierung für das duale Bachelorstudiengang Informatik an der HWR Berlin?",
+    "answer": "Ja, das Programm ist durch den Akkreditierungsrat akkreditiert."
+  },
+  {
+    "question": "Wo finde ich Informationen zur Bewerbung für den dualen Studiengang Informatik an der HWR Berlin?",
+    "answer": "Informationen zur Bewerbung für diesen Studiengang sind auf der Website der Hochschule zu finden."
+  },
+  {
+    "question": "Wie lange dauert das duale Bachelorstudium in Informatik an der HWR Berlin?",
+    "answer": "Der Text gibt keine genaue Dauer für das Studium an, diese Information könnte von den genauen Anforderungen des jeweiligen Studienganges abhängen."
+  },
+  {
+    "question": "Welche praktischen Aspekte sind Bestandteil des dualen Bachelorstudiengangs Informatik an der HWR Berlin?",
+    "answer": "Praktische Aspekte des Studiums sind die Beteiligung an konkreten Projekten von Anfang an und die Bearbeitung praxisrelevanter Problemstellungen mit den Methoden der Informatik. Zudem beinhaltet das Studium Betriebspraktika, die von den Dozentinnen und Dozenten begleitet werden."
+  },
+  {
+    "question": "Wie wichtig sind Kommunikationsfähigkeiten und Teamarbeit im Studium der Informatik an der HWR Berlin?",
+    "answer": "Neben den Fachkenntnissen sind ein hohes Maß an Kommunikationsfähigkeit und zielorientierte Teamarbeit für eine erfolgreiche Projektabwicklung entscheidend."
+  },
+  {
+    "question": "Welche fachübergreifenden Inhalte werden im Informatikstudium an der HWR Berlin behandelt?",
+    "answer": "Im Informatikstudium an der HWR Berlin werden fachübergreifende Inhalte wie juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik behandelt."
+  },
+  {
+    "question": "Worin besteht die Grundlage der Bachelorarbeit im dualen Bachelorstudiengang Informatik an der HWR Berlin?",
+    "answer": "Die Bachelorarbeit basiert auf der Bearbeitung einer betrieblichen Aufgabenstellung."
+  },
+  {
+    "question": "Wo können sich Studieninteressierte beraten lassen?",
+    "answer": "Studieninteressierte können sich an die Studienberatung der HWR Berlin wenden, die per E-Mail unter studienberatung.dual(at)hwr-berlin.de zu erreichen ist."
+  },
+  {
+    "question": "Sind die Partnerunternehmen mit der HWR Berlin in der Auswahl der dual Studierenden involviert?",
+    "answer": "Ja, die Partnerunternehmen wählen die zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Wie sind die Partnerunternehmen in den Studienprozess eingebunden?",
+    "answer": "Die Partnerunternehmen sind aktiv in den Studienprozess eingebunden, indem sie den Studierenden während des Studiums zur Seite stehen, Denkanstöße geben, Kreativität fördern, (gemeinsame) Projekte initiieren oder anregen und die Umsetzung begleiten."
+  },
+  {
+    "question": "Wie ist die Informatik in den Automobil- und Flugzeugbau involviert?",
+    "answer": "Heute entfallen etwa 60 Prozent der Wertschöpfung in der Flugzeugentwicklung und 90 Prozent aller Innovationen im Auto auf die Informatik, also z.B. auf Software- und Kommunikationstechnik."
+  },
+  {
+    "question": "Wie ist das Studium der Informatik an der HWR Berlin strukturiert?",
+    "answer": "Das Studium beginnt mit einem Grundstudium, in dem neben Praxis in Programmieren und Software-Engineering vor allem die mathematischen, theoretischen und technischen Grundlagen der Informatik im Vordergrund stehen. Im Hauptstudium werden vertiefende Inhalte der Informatik vermittelt und die Studierenden haben die Möglichkeit, Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme zu wählen. Das Studium schließt mit einer Bachelorarbeit ab."
+  },
+  {
+    "question": "Wie läuft der Bewerbungsprozess für das duale Studium der Informatik an der HWR Berlin ab?",
+    "answer": "Interessenten bewerben sich nicht direkt bei der HWR Berlin, sondern bei den Dualen Partnern, die in einer Datenbank auf der Website der Hochschule aufgeführt sind. Die Partnerunternehmen führen ein Auswahlverfahren durch und schließen mit den ausgewählten Bewerbern einen Studienvertrag ab."
+  },
+  {
+    "question": "Wie hoch sind die Gebühren für das duale Studium der Informatik an der HWR Berlin?",
+    "answer": "Es fallen keine spezifischen Studiengebühren für das duale Studium der Informatik an der HWR Berlin an. Es gibt lediglich einen Semesterbeitrag."
+  },
+  {
+    "question": "Welche Unternehmen sind Partner der HWR Berlin für das duale Studium der Informatik?",
+    "answer": "Zu den Partnerunternehmen gehören u.a. ALSTOM Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG und SAP SE. Die vollständige Liste kann auf der Website der Hochschule eingesehen werden."
+  },
+  {
+    "question": "Welche Fähigkeiten werden von den Studierenden des dualen Bachelorstudiengangs Informatik erwartet?",
+    "answer": "Von den Studierenden wird erwartet, dass sie fundierte Fachkenntnisse erwerben, eine hohe Kommunikationsfähigkeit entwickeln, zielorientiert im Team arbeiten und sich kontinuierlich an die Lösung von Projekten und Problemstellungen herantasten."
+  },
+  {
+    "question": "Welche Rolle spielen die Partnerunternehmen für die Studierenden?",
+    "answer": "Die Partnerunternehmen unterstützen die Studierenden, indem sie ihnen während des Studiums zur Seite stehen, den Blick für das Wesentliche schärfen, Denkanstöße geben, Kreativität fördern, Projekte initiieren oder anregen und die Umsetzung der Projekte begleiten."
+  },
+  {
+    "question": "Welche Aspekte der Informatik stehen im Vordergrund des Studiums?",
+    "answer": "Im Vordergrund stehen das Erlernen von Programmier- und Software-Engineering-Fähigkeiten, mathematischen, theoretischen und technischen Grundlagen der Informatik, sowie die Behandlung von juristischen, soziologischen und betriebswirtschaftlichen Aspekten der Informatik."
+  },
+  {
+    "question": "Wie erfolgt die Bewerbung für das duale Studium in der Informatik an der HWR Berlin?",
+    "answer": "Interessierte bewerben sich nicht direkt bei der HWR Berlin, sondern direkt bei den Dualen Partnern, die in einer Datenbank auf der Website der Hochschule zu finden sind."
+  },
+  {
+    "question": "Welche Fördermöglichkeiten gibt es für das Studium der Informatik an der HWR Berlin?",
+    "answer": "Es besteht die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Was beinhaltet das Hauptstudium der Informatik an der HWR Berlin?",
+    "answer": "Das Hauptstudium umfasst vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke sowie Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme. Zudem werden größere Projekte im Rahmen von zwei Studienarbeiten bearbeitet."
+  },
+  {
+    "question": "Wodurch ist der duale Bachelorstudiengang der Informatik an der HWR Berlin akkreditiert?",
+    "answer": "Der Studiengang ist durch den Akkreditierungsrat akkreditiert."
+  },
+  {
+    "question": "Bietet die HWR Berlin Unterstützung oder Beratung für Studieninteressierte an?",
+    "answer": "Ja, die HWR Berlin bietet Beratung für Studieninteressierte an. Interessierte können sich per E-Mail an studienberatung.dual(at)hwr-berlin.de wenden."
+  },
+  {
+    "question": "Wann sollten sich Studieninteressierte für den dualen Bachelorstudiengang Informatik bewerben?",
+    "answer": "Da viele Unternehmen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durchführen, ist es ratsam, sich frühzeitig zu bewerben."
+  },
+  {
+    "question": "Gibt es andere Ressourcen oder Informationen, die von der HWR Berlin für Studieninteressierte bereitgestellt werden?",
+    "answer": "Weitere Beratungsangebote und Informationen, einschließlich einer Download-Möglichkeit für Studiengangsinformationen, sind auf der Website der HWR Berlin zu finden."
+  },
+  {
+    "question": "Was ist die Orcid-ID, die in der Studiengangsbeschreibung erwähnt wird?",
+    "answer": "Die Orcid-ID ist eine eindeutige digitale Identifikator, die Wissenschaftlerinnen und Wissenschaftlern zugeordnet wird, um ihre Arbeit zu identifizieren und zu verfolgen. In diesem Kontext könnte es sich auf die Identifikationsnummer des Fachbereichs oder der Fachleitung beziehen."
+  },
+  {
+    "question": "Wie unterstützen die Hochschullehrer die Studierenden während ihres Studiums?",
+    "answer": "Die Dozentinnen und Dozenten begleiten die Studierenden während ihres Studiums, insbesondere bei der Bearbeitung betrieblicher Aufgaben."
+  },
+  {
+    "question": "Wie kann man sich über die Partnerunternehmen für das duale Studium informieren?",
+    "answer": "Eine Liste der Partnerunternehmen kann am Ende der Seite mit der Beschreibung des Studienprogramms auf der Website der HWR Berlin eingesehen werden."
+  },
+  {
+    "question": "Wie schafft der duale Studiengang Informatik an der HWR Berlin den Spagat zwischen Theorie und Praxis?",
+    "answer": "Indem die Studierenden von Anfang an in konkrete Projekte eingebunden werden und während des gesamten Studiums selbstständig praxisrelevante Problemstellungen bearbeiten. Sie sind sowohl an theoretischen Aspekten, als auch an betrieblichen Aufgaben beteiligt."
+  },
+  {
+    "question": "Welchen Schwerpunkt hat das Grundstudium in der Informatik an der HWR Berlin?",
+    "answer": "Das Grundstudium legt einen Schwerpunkt auf das praktische Programmieren und Software-Engineering sowie auf die mathematischen, theoretischen und technischen Grundlagen der Informatik. Zudem werden fachübergreifende Inhalte wie juristische, soziologische und betriebswirtschaftliche Aspekte behandelt."
+  },
+  {
+    "question": "Was beinhaltet das Hauptstudium des Informatikstudiengangs an der HWR Berlin?",
+    "answer": "Das Hauptstudium behandelt vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Es werden außerdem Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme angeboten. Das Hauptstudium beinhaltet darüber hinaus die Bearbeitung größerer Projekte im Rahmen von zwei Studienarbeiten."
+  },
+  {
+    "question": "Wie endet das Informatikstudium an der HWR Berlin?",
+    "answer": "Das Informatikstudium endet mit einer Bachelorarbeit, die auf einer betrieblichen Aufgabenstellung basiert."
+  },
+  {
+    "question": "Wie erfolgt das Bewerbungsverfahren für das duale Studium der Informatik an der HWR Berlin?",
+    "answer": "Studieninteressierte bewerben sich direkt bei den Dualen Partnern, die in der Partner-Datenbank auf der Hochschulwebsite aufgelistet sind. Es sind die Unternehmen, die die zukünftigen Studierenden auswählen und mit ihnen einen Studienvertrag abschließen."
+  },
+  {
+    "question": "Werden Gebühren für den Informatik-Studiengang an der HWR Berlin erhoben?",
+    "answer": "An der HWR Berlin gibt es keine speziellen Studiengebühren für den Informatik-Studiengang, jedoch wird ein Semesterbeitrag erhoben."
+  },
+  {
+    "question": "Welche Unterstützungs- oder Förderoptionen werden von der HWR Berlin angeboten?",
+    "answer": "Die HWR Berlin bietet die Möglichkeit einer Förderung durch das Bundesausbildungsförderungsgesetz (BAföG)."
+  },
+  {
+    "question": "Was beinhaltet das Studium der Informatik an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Es umfasst die Analyse, Entwicklung, Integration, Wartung und Pflege von Informatiksystemen. Die Studierenden werden von Anfang an in konkrete Projekte eingebunden und entwickeln Kommunikationsfähigkeiten und Teamarbeit."
+  },
+  {
+    "question": "Welche Fertigkeiten sind für eine erfolgreiche Projektabwicklung in der Informatik wichtig?",
+    "answer": "Neben fundierten Fachkenntnissen sind ein hohes Maß an Kommunikationsfähigkeit mit dem Anwender bzw. Auftraggeber und die zielorientierte Teamarbeit entscheidend."
+  },
+  {
+    "question": "Welche Rollen spielen Kooperationsunternehmen im Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Sie stehen den Studierenden als Partner während des Studiums zur Seite, schärfen deren Blick für das Wesentliche, geben Denkanstöße, fördern Kreativität, initiieren oder regen gemeinsame Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Für welche Tätigkeitsfelder qualifiziert das duale Bachelorstudium der Informatik?",
+    "answer": "Es qualifiziert für Tätigkeiten in der Softwareentwicklung und in der Systemadministration. Absolventen kommen vor allem in Entwicklungsabteilungen von Softwareunternehmen, bei IT-Dienstleistern und in unternehmensinternen IT-Abteilungen zum Einsatz."
+  },
+  {
+    "question": "Welche Inhalte werden im Grundstudium des Informatikstudiengangs behandelt?",
+    "answer": "Im Grundstudium werden neben einer ausführlichen Praxis im Programmieren und Software-Engineering die mathematischen, theoretischen und technischen Grundlagen der Informatik sowie juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik behandelt."
+  },
+  {
+    "question": "Was sind Schwerpunkte im Hauptstudium des Informatikstudiengangs?",
+    "answer": "Im Hauptstudium liegt der Fokus auf vertieften Inhalten der Informatik wie Betriebssysteme, Datenbanken und Netzwerke sowie Wahlpflichtfächern aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Wie schließt das Studium der Informatik ab?",
+    "answer": "Das Studium schließt mit einer Bachelorarbeit ab, die auf der Bearbeitung einer betrieblichen Aufgabenstellung basiert."
+  },
+  {
+    "question": "Wie bewerben sich Interessierte für das duale Studium der Informatik an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Interessierte bewerben sich nicht bei der Hochschule, sondern direkt bei den dualen Partnern mittels der Partner-Datenbank auf der Webseite der Hochschule."
+  },
+  {
+    "question": "Gibt es Gebühren für das Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Nein, es fallen keine Gebühren an, es wird lediglich ein Semesterbeitrag erhoben. Es besteht eventuell die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Welche Art von Unternehmen sind Partner der Hochschule für Wirtschaft und Recht Berlin für das duale Studium der Informatik?",
+    "answer": "Die Partnerunternehmen decken ein breites Spektrum ab, darunter sind Unternehmen wie Alstom Transportation Germany GmbH, Bayer AG, Deutsche Bahn AG, Freie Universität Berlin, SAP SE und Tesla Manufacturing Brandenburg SE."
+  },
+  {
+    "question": "Welche Bedeutung hat die Informatik in der heutigen Entwicklung von Flugzeugen und Autos?",
+    "answer": "Heute entfallen bereits 60 Prozent der Wertschöpfung in der Flugzeugentwicklung auf Software und Kommunikationstechnik, 90 Prozent aller Innovationen im Auto haben mit Informatik zu tun."
+  },
+  {
+    "question": "Welche praktischen Aspekte umfasst das Studium der Informatik?",
+    "answer": "Während des gesamten Studiums bearbeiten die Studierenden, teilweise in Teams, selbstständig praxisrelevante Problemstellungen und setzen betriebliche Aufgaben um."
+  },
+  {
+    "question": "Welche Gruppierungen nehmen während des Studiums eine besonders unterstützende Rolle ein?",
+    "answer": "Eine unterstützende Rolle nehmen insbesondere die Dozenten und Kooperationsunternehmen ein, die bei Projekten und betrieblichen Aufgaben Rat und Begleitung bieten."
+  },
+  {
+    "question": "Wie lange vor Studienbeginn sollten sich Interessierte für das duale Studium bewerben?",
+    "answer": "Viele Unternehmen führen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durch, daher ist eine frühzeitige Bewerbung ratsam."
+  },
+  {
+    "question": "Wie ist das Studium der Informatik aufgebaut?",
+    "answer": "Es besteht aus zwei Teilen - einem Grundstudium, in dem die Basiskenntnisse vermittelt werden und einem Hauptstudium, das vertiefende Inhalte und Wahlpflichtfächer enthält."
+  },
+  {
+    "question": "Wie können sich Interessierte beraten lassen, wenn sie Fragen zum dualen Studium Informatik haben?",
+    "answer": "Sie können sich per E-Mail an die Studienberatung der Hochschule wenden: studienberatung.dual(at)hwr-berlin.de"
+  },
+  {
+    "question": "Wer bietet das duale Studium der Informatik an?",
+    "answer": "Das duale Studium der Informatik wird von der Hochschule für Wirtschaft und Recht Berlin angeboten."
+  },
+  {
+    "question": "Wie kann ein Studienplatz für das duale Studium Informatik erlangt werden?",
+    "answer": "Um einen Studienplatz zu erhalten, bewerben sich Interessierte direkt bei den dualen Partnern, die unter den Bewerbern ihre zukünftigen dual Studierenden auswählen und mit ihnen einen Studienvertrag abschließen."
+  },
+  {
+    "question": "Welche Inhalte behandelt das Informatikstudium neben technischen Aspekten?",
+    "answer": "Neben technischen Inhalten behandelt das Informatikstudium auch juristische, soziologische und betriebswirtschaftliche Aspekte der Informatik."
+  },
+  {
+    "question": "Was ist der Unterschied zwischen Grund- und Hauptstudium im Informatikstudium?",
+    "answer": "Im Grundstudium stehen die Grundlagen der Informatik im Vordergrund, auch juristische, soziologische und betriebswirtschaftliche Aspekte werden behandelt. Im Hauptstudium hingegen werden vertiefte Informatikinhalte und Wahlpflichtfächer aus den Bereichen Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme vermittelt."
+  },
+  {
+    "question": "Wie erfolgt die Auswahl der dual Studierenden für das Informatikstudium?",
+    "answer": "Interessierte bewerben sich direkt bei den dualen Partnern der Hochschule. Diese wählen unter den Bewerbern ihre zukünftigen dual Studierenden aus."
+  },
+  {
+    "question": "Gibt es einen spezifischen Abschluss, der mit dem Informatikstudium erreicht wird?",
+    "answer": "Ja, das Studium schließt mit einem Bachelor ab."
+  },
+  {
+    "question": "Worin besteht die Grundlage der Bachelorarbeit im Studium der Informatik?",
+    "answer": "Die Grundlage der Bachelorarbeit besteht in der Bearbeitung einer betrieblichen Aufgabenstellung."
+  },
+  {
+    "question": "Wie wird die Praxisarbeit im Informatikstudium gestaltet?",
+    "answer": "Während des gesamten Studiums bearbeiten die Studierenden, teilweise in Teams, selbstständig praxisrelevante Problemstellungen und setzen betriebliche Aufgaben um."
+  },
+  {
+    "question": "Sind für das Informatikstudium Gebühren zu entrichten?",
+    "answer": "Es fallen keine Gebühren an, jedoch wird ein Semesterbeitrag erhoben. Es besteht eventuell die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "Wie kann ich mehr Informationen zum Studiengang Informatik erhalten?",
+    "answer": "Weitere Informationen können durch das Herunterladen der Studiengangsinformationen auf der Website der Hochschule erhalten werden."
+  },
+  {
+    "question": "Was beschreibt der Begriff \"dual\" in Bezug auf das Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Das \"duale\" Studium bedeutet, dass die Studierenden nicht nur an der Hochschule lernen, sondern auch in konkrete Projekte eingebunden sind und betriebliche Aufgaben in Kooperationsunternehmen durchführen."
+  },
+  {
+    "question": "Welche Tätigkeitsfelder können Absolventen des dualen Bachelorstudium Informatik betreten?",
+    "answer": "Sie können in Unternehmen aus der Softwarebranche, bei IT-Dienstleistern oder in unternehmensinternen IT-Abteilungen tätig sein."
+  },
+  {
+    "question": "Welche Verantwortung tragen die dualen Partnerunternehmen während des Studiums?",
+    "answer": "Sie stehen den Studierenden zur Seite, initiieren oder regen gemeinsame Projekte an und begleiten deren Umsetzung."
+  },
+  {
+    "question": "Welche Aspekte aus anderen Disziplinen werden im Informatikstudium behandelt?",
+    "answer": "Es werden fachübergreifende Inhalte wie die juristischen, soziologischen und betriebswirtschaftlichen Aspekte der Informatik behandelt."
+  },
+  {
+    "question": "Welche Aufgabe haben die Studierenden im Hauptstudium zusätzlich zu den Vorlesungen und Seminaren?",
+    "answer": "Im Hauptstudium bearbeiten die Studierenden größere Projekte im Rahmen von zwei Studienarbeiten."
+  },
+  {
+    "question": "Wie erfolgt die Bewerbung für das duale Studium der Informatik?",
+    "answer": "Interessierte bewerben sich nicht bei der Hochschule, sondern direkt bei den Dualen Partnern. Diese wählen unter den Bewerbern ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Was sind einige der Partnerunternehmen, die mit der Hochschule für Wirtschaft und Recht Berlin für das duale Studium Informatik zusammenarbeiten?",
+    "answer": "Einige der Partnerunternehmen sind ALSTOM Transportation Germany GmbH, Ambit Berlin GmbH, Bayer AG, Deutsche Bahn AG, Freie Universität Berlin und viele andere."
+  },
+  {
+    "question": "Welche Rolle spielen die Projekte im Studium der Informatik an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Die Projekte dienen als praktische Anwendung der gelernten Theorie und fördern fachbezogene Kommunikationsfähigkeit und Teamarbeit. Zudem ermöglichen sie den Studierenden, sich Schritt für Schritt an die Lösung heranzutasten."
+  },
+  {
+    "question": "Wie bereitet die Zusammenarbeit mit Kooperationsunternehmen die Studierenden auf ihre berufliche Zukunft vor?",
+    "answer": "Die Kooperationsunternehmen ermöglichen den Studierenden den Blick für das Wesentliche zu schärfen, Denkanstöße zu erhalten, Kreativität zu fördern und Projekte zu initiieren oder anzustoßen. Dadurch erhalten die Studierenden eine Vorbereitung auf zukünftige berufliche Herausforderungen."
+  },
+  {
+    "question": "Wie ist der Studienaufbau des Bachelorstudiengangs Informatik an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Der Studienaufbau ist in zwei Teile gegliedert: ein Grundstudium, das die Basiskenntnisse und interdisziplinäre Aspekte vermittelt, und ein Hauptstudium mit vertiefenden Informatikinhalten und Wahlmöglichkeiten aus verschiedenen Fachbereichen. Darüber hinaus wird während des gesamten Studiums an praxisrelevanten Problemen und betrieblichen Aufgaben gearbeitet."
+  },
+  {
+    "question": "Wie können sich Interessierte auf ein duales Studium der Informatik an der Hochschule für Wirtschaft und Recht Berlin bewerben?",
+    "answer": "Interessierte bewerben sich direkt bei den dualen Partnern der Hochschule, die in der Partner-Datenbank auf der Webseite der Hochschule gelistet sind."
+  },
+  {
+    "question": "Was sind die finanziellen Aspekte des Informatikstudiums an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Es fallen keine Studiengebühren an. Es wird jedoch ein Semesterbeitrag erhoben und es besteht eventuell die Möglichkeit einer Förderung durch BAföG."
+  },
+  {
+    "question": "An wen kann ich mich wenden, wenn ich Fragen zum dualen Studium Informatik habe?",
+    "answer": "Bei Fragen können sich Interessierte an die Studienberatung per E-Mail unter studienberatung.dual(at)hwr-berlin.de wenden."
+  },
+  {
+    "question": "Wie bereiten die Kooperationsunternehmen die dual Studierenden auf ihre Rolle als Informatiker vor?",
+    "answer": "Die Kooperationsunternehmen bereiten die Studierenden vor, indem sie ihnen während des Studiums zur Seite stehen, ihren Blick für das Wesentliche schärfen, Denkanstöße geben, ihre Kreativität fördern und sie bei der Initiierung und Umsetzung von Projekten unterstützen."
+  },
+  {
+    "question": "Was müssen zukünftige Studierende wissen, bevor sie sich für ein duales Studium in Informatik bewerben?",
+    "answer": "Sie sollten wissen, dass die Bewerbung direkt bei den dualen Partnern und nicht bei der Hochschule erfolgt. Diese Partner suchen ihre zukünftigen dual Studierenden selbst aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Wie unterstützt die Hochschule ihre dual Studierenden?",
+    "answer": "Die Hochschule unterstützt ihre Studierenden insbesondere durch die enge Einbindung in konkrete Projekte und praktische betriebliche Aufgaben, die sie lernen, mit den Methoden der Informatik zu lösen."
+  },
+  {
+    "question": "Was beinhaltet das Hauptstudium im Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Das Hauptstudium beinhaltet vertiefte Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke. Ebenfalls am Programm sind Wahlpflichtfächer aus den Gebieten Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme."
+  },
+  {
+    "question": "Was geschieht während der Bachelorarbeit im Informatikstudium?",
+    "answer": "Während der Bachelorarbeit bearbeiten die Studierenden eine betriebliche Aufgabenstellung, die Grundlage ihrer Abschlussarbeit ist."
+  },
+  {
+    "question": "Wer sind einige der Partnerunternehmen für das duale Studium der Informatik an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Einige der Partnerunternehmen sind die Alstom Transportation Germany GmbH, die Bayer AG, die Deutsche Bahn AG, die Freie Universität Berlin und die SAP SE, um nur einige zu nennen."
+  },
+  {
+    "question": "Was bedeutet es, dass das Programm durch den Akkreditierungsrat akkreditiert ist?",
+    "answer": "Das bedeutet, dass das Programm offiziell anerkannt ist und bestimmten Standards entspricht, die die Qualität der Ausbildung sicherstellen."
+  },
+  {
+    "question": "Wie sind die praktischen Elemente des Informatikstudiums organisiert?",
+    "answer": "Die Studierenden werden von Anfang an in konkrete Projekte eingebunden. Während des gesamten Studiums bearbeiten sie, teilweise in Teams, selbstständig praxisrelevante Problemstellungen und setzen betriebliche Aufgaben um, die von den Dozenten begleitet werden."
+  },
+  {
+    "question": "Wie groß ist der Einfluss der Informatik auf die Innovationsrate im Automobilsektor?",
+    "answer": "Von allen Innovationen im Automobilbereich haben 90 Prozent mit Informatik zu tun."
+  },
+  {
+    "question": "Mit welchen Fähigkeiten sind die Absolventen des dualen Bachelorstudiengangs Informatik ausgestattet?",
+    "answer": "Sie verfügen über fundierte Fachkenntnisse in der Informatik, Kommunikationsfähigkeit mit Anwendern oder Auftraggebern und sind zielorientiert in der Teamarbeit."
+  },
+  {
+    "question": "Was muss ich bei der Bewerbung für das duale Studium beachten?",
+    "answer": "Die Bewerbung erfolgt direkt bei den Dualen Partnern, die ihre zukünftigen dual Studierenden selber auswählen. Zudem sollten sich Bewerber rechtzeitig bewerben, da viele Unternehmen die Auswahlverfahren für dual Studierende über ein Jahr vor Studienbeginn durchführen."
+  },
+  {
+    "question": "Was kann ich tun, wenn ich Fragen zum dualen Studium habe?",
+    "answer": "Bei Fragen zum dualen Studium sollten Sie sich an die Studienberatung der Hochschule für Wirtschaft und Recht Berlin wenden."
+  },
+  {
+    "question": "Wie ist das Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin strukturiert?",
+    "answer": "Das Studium gliedert sich in ein Grundstudium und ein Hauptstudium. Im Grundstudium werden die Grundlagen der Informatik und fachübergreifende Inhalte vermittelt, während das Hauptstudium auf vertieften Informatikinhalten und Wahlpflichtfächern basiert."
+  },
+  {
+    "question": "Welche Kooperationsunternehmen gibt es für das duale Studium der Informatik?",
+    "answer": "Die Kooperationsunternehmen reichen von der Alstom Transportation Germany GmbH und der Bayer AG, über die Deutsche Bahn AG und die Freie Universität Berlin bis hin zur SAP SE und vielen anderen."
+  },
+  {
+    "question": "Welche Betätigungsfelder eröffnen sich Absolventen des dualen Bachelorstudium Informatik in Bezug auf bestimmte Branchen?",
+    "answer": "Insbesondere in Entwicklungsabteilungen von Unternehmen aus der Softwarebranche, bei IT-Dienstleistern und in unternehmensinternen IT-Abteilungen kommen Absolventen zum Einsatz."
+  },
+  {
+    "question": "Wie sieht die Bearbeitung von praktischen Projekten im Informatikstudium aus?",
+    "answer": "Die Studierenden werden von Anfang an in konkrete Projekte eingebunden und zu aktiven Gestaltern, die sich durch Ausprobieren an die Lösung herantasten."
+  },
+  {
+    "question": "Was sind konkrete Inhalte, die im Hauptstudium der Informatik vermittelt werden?",
+    "answer": "Im Hauptstudium werden vertiefende Inhalte der Informatik wie Betriebssysteme, Datenbanken und Netzwerke behandelt, sowie Wahlpflichtfächer wie Grafik/Multimedia, Künstliche Intelligenz und Mobile Systeme angeboten."
+  },
+  {
+    "question": "Wie erfolgt die Projektarbeit im Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Die Projektarbeit erfolgt in Zusammenarbeit mit Kooperationsunternehmen und beinhaltet die Bearbeitung von praxisrelevanten Problemstellungen und die Umsetzung von (gemeinsamen) Projekten."
+  },
+  {
+    "question": "Wie funktioniert der Bewerbungsprozess für das duale Studium der Informatik an der Hochschule für Wirtschaft und Recht Berlin?",
+    "answer": "Interessierte bewerben sich direkt bei den Dualen Partnern der Hochschule über die Partner-Datenbank auf der Website der Hochschule. Die Dualen Partner wählen ihre zukünftigen dual Studierenden aus und schließen mit ihnen einen Studienvertrag ab."
+  },
+  {
+    "question": "Welche Unternehmenspartner stehen den Informatikstudierenden zur Seite?",
+    "answer": "Dazu zählen zahlreiche Partner, wie Bayer AG, Deutsche Bahn AG, Freie Universität Berlin, SAP SE und Tesla Manufacturing Brandenburg SE."
+  },
+  {
+    "question": "Wie ist das Informatikstudium an der Hochschule für Wirtschaft und Recht Berlin akkreditiert?",
+    "answer": "Das Programm ist durch den Akkreditierungsrat anerkannt, was sicherstellt, dass es bestimmten hohen Qualitätsstandards entspricht."
+  }
+]
