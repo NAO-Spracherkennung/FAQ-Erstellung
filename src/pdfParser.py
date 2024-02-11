@@ -4,7 +4,6 @@ import tempfile
 import os
 from bs4 import BeautifulSoup
 import hashlib
-from io import BytesIO
 
 
 headers = {

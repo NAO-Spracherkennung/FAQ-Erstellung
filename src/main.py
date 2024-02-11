@@ -21,7 +21,7 @@ def main():
         "https://www.hwr-berlin.de/hwr-berlin/fachbereiche-und-bps/fb-2-duales-studium/studieren-am-fachbereich/studienorganisation/",
     ]
 
-    target_labels = [
+    pdf_target_labels = [
         "Modulübersicht",
         "Rahmenstudien- und Prüfungsordnung der HWR Berlin",
     ]
@@ -32,17 +32,18 @@ def main():
     """Website"""
     if json_exist:
         for url in website_urls:
-            label = scraper.get_last_segment_from_url(url)
+            filename = scraper.get_last_segment_from_url(url)
             new_text = scraper.scrape_to_json(url)
-            compare = scraper.compare_json("json", label, new_text)
+            compare = scraper.compare_json("json", filename, new_text)
+            print(f"Webseite:{compare}")
             if not compare:
-                scraper.save_json(new_text)
-                #faq = create_faq(new_text)
+                scraper.save_json(new_text,filename)
+                faq = create_faq(new_text)
     else:
         for url in website_urls:
             source_text = scraper.scrape_to_json(url)
-            label = scraper.get_last_segment_from_url(url)
-            scraper.save_json(source_text, label)
+            filename = scraper.get_last_segment_from_url(url)
+            scraper.save_json(source_text, filename)
             faq = create_faq(source_text)
 
     """Pdf files"""
@@ -50,7 +51,7 @@ def main():
 
     if pdf_exist:
         for url in pdf_urls:
-            for label in target_labels:
+            for label in pdf_target_labels:
                 new_files = pdfParser.download_pdfs_with_label(url, label)
                 for file in new_files:
                     compare = pdfParser.hash_pdf("pdf", label, file)
@@ -62,7 +63,7 @@ def main():
                     faq = create_faq(pdf_text_content)
     else:
         for url in pdf_urls:
-            for label in target_labels:
+            for label in pdf_target_labels:
                 pdf_contents = pdfParser.download_pdfs_with_label(url, label)
                 for pdf_content in pdf_contents:
                     pdf_text_content.append(

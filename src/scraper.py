@@ -117,7 +117,7 @@ def save_json(text, target_label):
         json.dump(text, file, ensure_ascii=False, indent=4)
 
 
-def compare_json(folder_path, label, new_json):
+def compare_json(folder_path, filename, new_json):
     """
     Checks whether json object already exists and compares the old and new json objects
     Returns True if json objects are equal
@@ -126,7 +126,7 @@ def compare_json(folder_path, label, new_json):
     """
     current_directory = os.getcwd()
     full_path = os.path.join(current_directory, folder_path)
-    file_path = os.path.join(full_path, label + ".json")
+    file_path = os.path.join(full_path, filename + ".json")
 
     if os.path.exists(file_path):
         with open(file_path, "r") as file:
