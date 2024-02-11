@@ -3,6 +3,9 @@ import fitz
 import tempfile
 import os
 from bs4 import BeautifulSoup
+import hashlib
+from io import BytesIO
+
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -52,10 +55,6 @@ def download_pdfs_with_label(url, target_label):
             link_http = "http://www.hwr-berlin.de" + pdf_link
             pdf_content = download_pdf(link_http)
             if pdf_content:
-                os.makedirs("data", exist_ok=True)
-                path = os.path.join("data", f"{target_label}.pdf")
-                with open(path, "wb") as file:
-                    file.write(pdf_content)
                 pdf_contents.append(pdf_content)
 
         return pdf_contents
@@ -102,33 +101,32 @@ def build_content(pdfcontent, filename):
     return content
 
 
-def pdf_parser(urls, target_labels):
-
-    pdf_text_content = []
-
-    for url in urls:
-        for target_label in target_labels:
-            pdf_contents = download_pdfs_with_label(url, target_label)
-            for pdf_content in pdf_contents:
-                pdf_text_content.append(
-                    extract_text_from_pdf(pdf_content, target_label)
-                )
-    return pdf_text_content
+def save_pdf(content, target_label):
+    os.makedirs("pdf", exist_ok=True)
+    path = os.path.join("pdf", f"{target_label}.pdf")
+    with open(path, "wb") as file:
+        file.write(content)
 
 
-def main():
-    urls = [
-        "https://www.hwr-berlin.de/studium/studiengaenge/detail/61-informatik/",
-        "https://www.hwr-berlin.de/hwr-berlin/fachbereiche-und-bps/fb-2-duales-studium/studieren-am-fachbereich/studienorganisation/",
-    ]
+def hash_pdf(folder_path, label, new_file):
+    """
+    Checks whether pdf file already exists and compares the old and new pdf files using hash
+    Returns True if files are equal
+    Returns False if files are not equal or or there was no pdf file yet
 
-    target_labels = [
-        "Modulübersicht",
-        "Rahmenstudien- und Prüfungsordnung der HWR Berlin",
-    ]
-    content = pdf_parser(urls, target_labels)
-    print(content)
+    """
+    current_directory = os.getcwd()
+    full_path = os.path.join(current_directory, folder_path)
+    file_path = os.path.join(full_path, label + ".pdf")
 
-
-if __name__ == "__main__":
-    main()
+    if os.path.exists(file_path):
+        with open(file_path, "rb") as file:
+            h1 = hashlib.sha256(file.read()).hexdigest()
+            
+        h2 = hashlib.sha256(new_file).hexdigest()
+        if h1 == h2:
+            return True  
+        else:
+            return False  
+    else:
+        return False  
