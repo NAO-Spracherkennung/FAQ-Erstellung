@@ -29,16 +29,31 @@ def main(filename_start: str, dir):
     return all_faqs
 
 
+def convert_unicode_escape(obj):
+    if isinstance(obj, dict):
+        for key, value in obj.items():
+            obj[key] = convert_unicode_escape(value)
+        return obj
+    elif isinstance(obj, list):
+        return [convert_unicode_escape(item) for item in obj]
+    elif isinstance(obj, str):
+        return obj.encode("utf-8").decode("unicode-escape")
+
+    else:
+        return obj
+
+
 if __name__ == "__main__":
     dir = os.path.join(os.path.join("sample"))
+    # all_faqs = convert_unicode_escape(main("output-gpt-3.5-turbo", dir))
     all_faqs = main("output-gpt-3.5-turbo", dir)
-    with open("all_faqs_gpt-3.5-turbo.json", "w") as file:
-        json.dump(all_faqs, file)
+    with open("all_faqs_gpt-3.5-turbo.json", "w", encoding="utf-8") as file:
+        json.dump(all_faqs, file, ensure_ascii=False)
 
     all_faqs = main("output-gpt-4-2024", dir)
-    with open("all_faqs_gpt-4.json", "w") as file:
-        json.dump(all_faqs, file)
+    with open("all_faqs_gpt-4.json", "w", encoding="utf-8") as file:
+        json.dump(all_faqs, file, ensure_ascii=False)
 
     all_faqs = main("output-gpt-4-0125", dir)
-    with open("all_faqs_gpt-4-turbo.json", "w") as file:
-        json.dump(all_faqs, file)
+    with open("all_faqs_gpt-4-turbo.json", "w", encoding="utf-8") as file:
+        json.dump(all_faqs, file, ensure_ascii=False)
