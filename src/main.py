@@ -78,12 +78,12 @@ def create_faq(source_text):
     # Write calls to file
     os.makedirs("output", exist_ok=True)
     savepath = os.path.join("output", f"output-{model['name']}-{timestr}.json")
-    with open(savepath, "w") as f:
-        f.write(str(json.dumps(summary)))
+    with open(savepath, "w", encoding="utf-8") as f:
+        f.write(str(json.dumps(summary, ensure_ascii=False)))
 
     # write source text to file
     savepath = os.path.join("output", f"source-{model['name']}-{timestr}.json")
-    with open(savepath, "w") as f:
+    with open(savepath, "w", encoding="utf-8") as f:
         f.write(str(source_text))
 
     all_faq = []
